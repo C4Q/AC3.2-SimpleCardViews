@@ -25,7 +25,7 @@ class CardFace: UIView {
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        
+ 
         if let view = Bundle.main.loadNibNamed("CardFace", owner: self, options: nil)?.first as? UIView {
             self.addSubview(view)
             view.frame = self.bounds
