@@ -61,10 +61,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="CardViewFour" destination="At8-7K-LTg" id="cPC-pq-hh7"/>
-                        <outlet property="CardViewOne" destination="jaq-FD-KeA" id="cne-eG-5N8"/>
-                        <outlet property="CardViewThree" destination="EDB-Ex-4Lh" id="TW6-so-tpj"/>
-                        <outlet property="CardViewTwo" destination="VEO-e7-7zw" id="1hR-sf-89q"/>
+                        <outlet property="CardViewFour" destination="At8-7K-LTg" id="toS-xl-Vp9"/>
+                        <outlet property="CardViewOne" destination="jaq-FD-KeA" id="GEq-Nc-cmP"/>
+                        <outlet property="CardViewThree" destination="EDB-Ex-4Lh" id="m0l-oR-o5d"/>
+                        <outlet property="CardViewTwo" destination="VEO-e7-7zw" id="yNw-Kz-RAr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

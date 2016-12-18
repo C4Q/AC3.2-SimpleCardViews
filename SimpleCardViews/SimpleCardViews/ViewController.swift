@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var CardViewTwo: CardOneView!
     @IBOutlet weak var CardViewThree: CardOneView!
     @IBOutlet weak var CardViewFour: CardOneView!
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,11 +22,13 @@ class ViewController: UIViewController {
     }
 
     func loadData() {
-        let views = [CardViewOne, CardViewTwo, CardViewThree, CardViewFour]
+        let views = [self.CardViewOne, self.CardViewTwo, self.CardViewThree, self.CardViewFour]
         for each in views {
+            DispatchQueue.main.async {
             each?.topLabel.text = "A"
             each?.centerImageView.image = #imageLiteral(resourceName: "Sashimi")
             each?.bottomLabel.text = "K"
+            }
         }
     }
 
