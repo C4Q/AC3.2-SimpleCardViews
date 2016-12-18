@@ -58,21 +58,18 @@ class ViewController: UIViewController {
             
             downloadImage(url: url[index % url.count]!, card: cards[index])
             
-            cards[index].numberingReversed.transform = CGAffineTransform(rotationAngle: -CGFloat.pi)
-            cards[index].suitReversed.transform = CGAffineTransform(rotationAngle: -CGFloat.pi)
+            let color: UIColor
             
             if cards[index].suit.text == "♠︎" || cards[index].suit.text == "♣︎" {
-                cards[index].suit.textColor = .black
-                cards[index].suitReversed.textColor = .black
-                cards[index].numbering.textColor = .black
-                cards[index].numberingReversed.textColor = .black
+                color = .black
             } else {
-                cards[index].suit.textColor = .red
-                cards[index].suitReversed.textColor = .red
-                cards[index].numbering.textColor = .red
-                cards[index].numberingReversed.textColor = .red
+                color = .red
             }
             
+            cards[index].suit.textColor = color
+            cards[index].suitReversed.textColor = color
+            cards[index].numbering.textColor = color
+            cards[index].numberingReversed.textColor = color
         }
     }
 }

@@ -26,6 +26,14 @@ class CardFace: UIView {
         if let view = Bundle.main.loadNibNamed("CardFace", owner: self, options: nil)?.first as? UIView {
             self.addSubview(view)
             view.frame = self.bounds
+            
+            layer.borderWidth = 2
+            layer.borderColor = UIColor.black.cgColor
+            
+            numberingReversed.transform = CGAffineTransform(rotationAngle: -CGFloat.pi)
+            suitReversed.transform = CGAffineTransform(rotationAngle: -CGFloat.pi)
+
         }
     }
+    
 }
