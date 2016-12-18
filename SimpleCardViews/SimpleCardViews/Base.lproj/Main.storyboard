@@ -22,15 +22,87 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pP1-t6-lTk" customClass="CardFace" customModule="SimpleCardViews" customModuleProvider="target">
-                                <rect key="frame" x="62" y="158" width="250" height="350"/>
+                                <rect key="frame" x="127" y="28" width="107" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lef-1K-bre" customClass="CardFace" customModule="SimpleCardViews" customModuleProvider="target">
+                                <rect key="frame" x="41" y="209" width="107" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f8G-xi-HvK" customClass="CardFace" customModule="SimpleCardViews" customModuleProvider="target">
+                                <rect key="frame" x="21" y="322" width="107" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gWu-Es-FiI" customClass="CardFace" customModule="SimpleCardViews" customModuleProvider="target">
+                                <rect key="frame" x="94" y="197" width="107" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99215686270000003" green="0.81176470590000005" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Di1-eE-Hcv" customClass="CardFace" customModule="SimpleCardViews" customModuleProvider="target">
+                                <rect key="frame" x="209" y="66" width="107" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99859416479999996" green="0.93302476410000001" blue="0.75633931160000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ctA-59-l16" customClass="CardFace" customModule="SimpleCardViews" customModuleProvider="target">
+                                <rect key="frame" x="161" y="186" width="107" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rIF-r1-Q2D" customClass="CardFace" customModule="SimpleCardViews" customModuleProvider="target">
+                                <rect key="frame" x="127" y="285" width="107" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tJF-N9-qCB" customClass="CardFace" customModule="SimpleCardViews" customModuleProvider="target">
+                                <rect key="frame" x="223" y="173" width="107" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98594677450000001" green="0.0" blue="0.039444983009999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V9z-tg-jGK" customClass="CardFace" customModule="SimpleCardViews" customModuleProvider="target">
+                                <rect key="frame" x="223" y="355" width="107" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98594677450000001" green="0.0" blue="0.039444983009999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UmG-sI-Xab" customClass="CardFace" customModule="SimpleCardViews" customModuleProvider="target">
+                                <rect key="frame" x="252" y="294" width="107" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.61719524859999997" green="1" blue="0.64092338090000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JpB-H0-vQT" customClass="CardFace" customModule="SimpleCardViews" customModuleProvider="target">
+                                <rect key="frame" x="161" y="368" width="107" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n6N-Tv-KXN" customClass="CardFace" customModule="SimpleCardViews" customModuleProvider="target">
+                                <rect key="frame" x="94" y="379" width="107" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99215686270000003" green="0.81176470590000005" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YgT-tU-CJz" customClass="CardFace" customModule="SimpleCardViews" customModuleProvider="target">
+                                <rect key="frame" x="41" y="391" width="107" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.098039215690000001" green="0.33725490200000002" blue="0.1058823529" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <outlet property="card1" destination="pP1-t6-lTk" id="d5F-85-tN6"/>
+                        <outlet property="card10" destination="Lef-1K-bre" id="jae-9H-NbL"/>
+                        <outlet property="card2" destination="Di1-eE-Hcv" id="ncz-Bf-0BD"/>
+                        <outlet property="card3" destination="tJF-N9-qCB" id="fmM-q1-8TP"/>
+                        <outlet property="card4" destination="UmG-sI-Xab" id="Dd7-1d-HM9"/>
+                        <outlet property="card5" destination="V9z-tg-jGK" id="Xbw-1T-HLs"/>
+                        <outlet property="card6" destination="JpB-H0-vQT" id="lLC-mI-giG"/>
+                        <outlet property="card7" destination="n6N-Tv-KXN" id="aRR-tY-6aN"/>
+                        <outlet property="card8" destination="YgT-tU-CJz" id="axj-Av-G8C"/>
+                        <outlet property="card9" destination="f8G-xi-HvK" id="ktC-1v-QV8"/>
+                        <outlet property="cardJ" destination="gWu-Es-FiI" id="gyn-8k-hfZ"/>
+                        <outlet property="cardK" destination="rIF-r1-Q2D" id="zDt-sX-EJr"/>
+                        <outlet property="cardQ" destination="ctA-59-l16" id="u2b-p9-Qk4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
