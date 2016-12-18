@@ -14,6 +14,7 @@
 		D38357AC1E06085D00337886 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38357AA1E06085D00337886 /* LaunchScreen.storyboard */; };
 		D38357B81E0608EB00337886 /* CardFace.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38357B71E0608EB00337886 /* CardFace.xib */; };
 		D38357BC1E060A4E00337886 /* CardFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38357BB1E060A4E00337886 /* CardFace.swift */; };
+		D38357BE1E06477900337886 /* GetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38357BD1E06477900337886 /* GetData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D38357AD1E06085D00337886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D38357B71E0608EB00337886 /* CardFace.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardFace.xib; sourceTree = "<group>"; };
 		D38357BB1E060A4E00337886 /* CardFace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardFace.swift; path = ../CardFace.swift; sourceTree = "<group>"; };
+		D38357BD1E06477900337886 /* GetData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		D38357B51E06088200337886 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				D38357BD1E06477900337886 /* GetData.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			files = (
 				D38357A41E06085D00337886 /* ViewController.swift in Sources */,
 				D38357A21E06085D00337886 /* AppDelegate.swift in Sources */,
+				D38357BE1E06477900337886 /* GetData.swift in Sources */,
 				D38357BC1E060A4E00337886 /* CardFace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

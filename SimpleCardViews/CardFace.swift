@@ -16,8 +16,19 @@ class CardFace: UIView {
     @IBOutlet weak var suitReversed: UILabel!
     @IBOutlet weak var image: UIImageView!
     
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+    //numberingReversed.transform = CGAffineTransform(rotationAngle: CGFloat.pi / 2)
+    //reversedSuit.transform = CGAffineTransform(rotationAngle: CGFloat.pi / 2)
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
     }
     
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        
+        if let view = Bundle.main.loadNibNamed("CardFace", owner: self, options: nil)?.first as? UIView {
+            self.addSubview(view)
+            view.frame = self.bounds
+        }
+    }
 }

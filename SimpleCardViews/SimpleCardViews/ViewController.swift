@@ -9,15 +9,32 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var card1: CardFace!
+    let url = URL(string: "http://vignette4.wikia.nocookie.net/scribblenauts/images/4/42/Crash_Test_Dummy.png/revision/latest?cb=20130309213400")
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        card1.numbering.text = "A"
+        card1.numberingReversed.text = "A"
+        card1.suit.text = "♠︎"
+        card1.suitReversed.text = "♠︎"
+        downloadImage(url: url!)
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func downloadImage(url: URL) {
+        print("Download Started")
+        getDataFrom(url: url) { (data, response, error)  in
+            guard let data = data, error == nil else { return }
+            print(response?.suggestedFilename ?? url.lastPathComponent)
+            print("Download Finished")
+            DispatchQueue.main.async() { () -> Void in
+                // set a remote image for a normal image view
+                self.card1.image.image = UIImage(data: data)
+            }
+        }
     }
 
 
