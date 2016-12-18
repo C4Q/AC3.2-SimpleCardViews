@@ -20,6 +20,10 @@ class ViewController: UIViewController {
         card1.numberingReversed.text = "A"
         card1.suit.text = "♠︎"
         card1.suitReversed.text = "♠︎"
+        
+        card1.numberingReversed.transform = CGAffineTransform(rotationAngle: -CGFloat.pi)
+        card1.suitReversed.transform = CGAffineTransform(rotationAngle: -CGFloat.pi)
+        
         downloadImage(url: url!)
         
     }
@@ -32,7 +36,7 @@ class ViewController: UIViewController {
             print("Download Finished")
             DispatchQueue.main.async() { () -> Void in
                 // set a remote image for a normal image view
-                self.card1.image.image = UIImage(data: data)
+                self.card1.pic.image = UIImage(data: data)
             }
         }
     }

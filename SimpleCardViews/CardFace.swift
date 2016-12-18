@@ -14,10 +14,7 @@ class CardFace: UIView {
     @IBOutlet weak var suit: UILabel!
     @IBOutlet weak var numberingReversed: UILabel!
     @IBOutlet weak var suitReversed: UILabel!
-    @IBOutlet weak var image: UIImageView!
-    
-    //numberingReversed.transform = CGAffineTransform(rotationAngle: CGFloat.pi / 2)
-    //reversedSuit.transform = CGAffineTransform(rotationAngle: CGFloat.pi / 2)
+    @IBOutlet weak var pic: UIImageView!
     
     override init(frame: CGRect) {
         super.init(frame: frame)
