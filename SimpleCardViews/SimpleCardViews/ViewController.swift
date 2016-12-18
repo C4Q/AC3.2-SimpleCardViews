@@ -10,10 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var cardVIew: CardFaceView!
+    
+    //let suits =
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+    
     }
-
 }
-
+func createCards(void: (Void)) -> [String] {
+    var cardArray: [String] = []
+    let nanCards = ["A", "J", "Q", "K"]
+    var numberCards: [String] = []
+    for i in 2...10 {
+        
+    }
+return cardArray
+}
