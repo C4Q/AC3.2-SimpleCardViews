@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SimpleCardViews" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jaq-FD-KeA" customClass="CardOneView" customModule="SimpleCardViews" customModuleProvider="target">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="4Ld-Ia-aCf"/>
+                                    <constraint firstAttribute="width" constant="150" id="snr-Y8-1s9"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EDB-Ex-4Lh" customClass="CardOneView" customModule="SimpleCardViews" customModuleProvider="target">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="7ri-G8-RuG"/>
+                                    <constraint firstAttribute="height" constant="200" id="QAJ-Q8-1Hi"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="At8-7K-LTg" customClass="CardOneView" customModule="SimpleCardViews" customModuleProvider="target">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="UeD-Fb-NYj"/>
+                                    <constraint firstAttribute="width" constant="150" id="dza-V2-AeA"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VEO-e7-7zw" customClass="CardOneView" customModule="SimpleCardViews" customModuleProvider="target">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="4Zb-24-L9r"/>
+                                    <constraint firstAttribute="height" constant="200" id="jQ1-Y6-IBG"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.74180410829173238" green="0.87735735382793234" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="VEO-e7-7zw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="Bc6-8E-cvb"/>
+                            <constraint firstItem="At8-7K-LTg" firstAttribute="top" secondItem="VEO-e7-7zw" secondAttribute="bottom" constant="30" id="SJp-v5-e1b"/>
+                            <constraint firstItem="jaq-FD-KeA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="TOc-1l-96q"/>
+                            <constraint firstItem="EDB-Ex-4Lh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="Zat-rA-VHn"/>
+                            <constraint firstItem="jaq-FD-KeA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="eJa-ap-wwc"/>
+                            <constraint firstItem="EDB-Ex-4Lh" firstAttribute="top" secondItem="jaq-FD-KeA" secondAttribute="bottom" constant="30" id="jRq-lV-y51"/>
+                            <constraint firstItem="At8-7K-LTg" firstAttribute="trailing" secondItem="VEO-e7-7zw" secondAttribute="trailing" id="kWM-PF-f0R"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VEO-e7-7zw" secondAttribute="trailing" constant="15" id="y4B-r3-bIl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="CardViewFour" destination="At8-7K-LTg" id="cPC-pq-hh7"/>
+                        <outlet property="CardViewOne" destination="jaq-FD-KeA" id="cne-eG-5N8"/>
+                        <outlet property="CardViewThree" destination="EDB-Ex-4Lh" id="TW6-so-tpj"/>
+                        <outlet property="CardViewTwo" destination="VEO-e7-7zw" id="1hR-sf-89q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>
