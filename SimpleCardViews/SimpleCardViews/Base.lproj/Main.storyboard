@@ -5,6 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -23,7 +24,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7oL-nh-Yvh" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="9g8-i8-ewq"/>
+                                    <constraint firstAttribute="height" priority="999" constant="200" id="9g8-i8-ewq"/>
                                     <constraint firstAttribute="width" secondItem="7oL-nh-Yvh" secondAttribute="height" multiplier="25:35" id="zYD-VY-cAR"/>
                                 </constraints>
                             </view>
@@ -42,11 +43,15 @@
                             <constraint firstItem="Uh9-1W-yat" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="10" id="Aqp-Il-4Jr"/>
                             <constraint firstItem="ReD-gW-WcR" firstAttribute="width" secondItem="7oL-nh-Yvh" secondAttribute="width" id="B0w-ZW-so4"/>
                             <constraint firstItem="Cdb-er-tuV" firstAttribute="height" secondItem="7oL-nh-Yvh" secondAttribute="height" id="Cuk-pn-6fW"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Uh9-1W-yat" secondAttribute="bottom" constant="8" id="G0Q-0J-k7z"/>
+                            <constraint firstItem="7oL-nh-Yvh" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="GJX-81-EMl"/>
                             <constraint firstItem="ReD-gW-WcR" firstAttribute="leading" secondItem="Uh9-1W-yat" secondAttribute="leading" id="Ifg-HS-s0W"/>
                             <constraint firstItem="Cdb-er-tuV" firstAttribute="trailing" secondItem="7oL-nh-Yvh" secondAttribute="trailing" id="KK3-Vo-uUA"/>
+                            <constraint firstItem="7oL-nh-Yvh" firstAttribute="top" relation="greaterThanOrEqual" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="OrY-p1-XRu"/>
                             <constraint firstItem="Uh9-1W-yat" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="10" id="PKH-DT-ml3"/>
                             <constraint firstItem="Cdb-er-tuV" firstAttribute="top" secondItem="Uh9-1W-yat" secondAttribute="top" id="X8U-09-LXn"/>
                             <constraint firstItem="Cdb-er-tuV" firstAttribute="width" secondItem="7oL-nh-Yvh" secondAttribute="width" id="a4V-sD-yok"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="Uh9-1W-yat" secondAttribute="trailing" constant="8" id="aOZ-Hu-kjb"/>
                             <constraint firstItem="Uh9-1W-yat" firstAttribute="height" secondItem="7oL-nh-Yvh" secondAttribute="height" id="bni-py-zlb"/>
                             <constraint firstItem="ReD-gW-WcR" firstAttribute="bottom" secondItem="7oL-nh-Yvh" secondAttribute="bottom" id="gPh-vQ-ZEb"/>
                             <constraint firstItem="7oL-nh-Yvh" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-10" id="gao-Ny-5wJ"/>
