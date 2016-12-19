@@ -75,6 +75,11 @@ class CardFace: UIView {
     }
     
     static func label(_ card: CardFace, valueOfCard: Int, suitOfCard: Suit) {
+        guard valueOfCard <= 13 else {
+            print("Card not labeled because card values must not exceed 13.")
+            return
+        }
+        
         let numberIndex = valueOfCard - 1
         card.numberLabel.text = numbers[numberIndex % numbers.count]
         card.numberLabelReversed.text = card.numberLabel.text
@@ -98,7 +103,7 @@ class CardFace: UIView {
     
     static func label(_ cards: [CardFace]) {
         for index in 0..<cards.count {
-            label(cards[index], valueOfCard: index + 1, suitOfCard: Suit(rawValue: index % 4)!)
+            label(cards[index], valueOfCard: (index % 13) + 1, suitOfCard: Suit(rawValue: index % 4)!)
         }
     }
 }

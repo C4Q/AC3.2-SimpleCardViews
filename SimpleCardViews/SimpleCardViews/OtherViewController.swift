@@ -39,12 +39,13 @@ class OtherViewController: UIViewController {
     }
     
     func startingArrangement(_ cards: [CardFace]) {
-        for card in cards {
-            card.heightAnchor.constraint(equalToConstant: 150).isActive = true
-            card.widthAnchor.constraint(equalTo: card.heightAnchor, multiplier: 5/7).isActive = true
-            card.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-            card.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-            card.translatesAutoresizingMaskIntoConstraints = false
+        for index in 0..<cards.count {
+            cards[index].heightAnchor.constraint(equalToConstant: 150).isActive = true
+            cards[index].widthAnchor.constraint(equalTo: cards[index].heightAnchor, multiplier: 5/7).isActive = true
+            cards[index].leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+            cards[index].centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+            cards[index].translatesAutoresizingMaskIntoConstraints = false
+            cards[index].layer.zPosition = CGFloat(index)
         }
     }
     
@@ -57,11 +58,15 @@ class OtherViewController: UIViewController {
     }
     
     func splayOut(_ cards: [CardFace]) {
+        // ... add as many as you want, then apply it to to the view
         for index in 0..<cards.count {
-            let angle = 0.48 * Double(index + 1)
-            cards[index].transform = CGAffineTransform(rotationAngle: CGFloat(angle))
-            //cards[index].transform = CGAffineTransform(translationX: CGFloat(10+index), y: CGFloat(10+index))
-        }
+            let angle = 0.10 * Double(index + 1)
+            var t = CGAffineTransform.identity
+            t = t.translatedBy(x: CGFloat(20 * index), y: CGFloat(0))
+            t = t.rotated(by: CGFloat(angle))
+            cards[index].leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 40)
+            cards[index].transform = t
+            }
     }
     
     @IBAction func alterArrangement(_ sender: UIButton) {
