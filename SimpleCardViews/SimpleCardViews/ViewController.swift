@@ -10,23 +10,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var card1: UIView!
-    @IBOutlet weak var card2: UIView!
-    @IBOutlet weak var card3: UIView!
-    @IBOutlet weak var card4: UIView!
+    @IBOutlet weak var card1: CardView!
+    @IBOutlet weak var card2: CardView!
+    @IBOutlet weak var card3: CardView!
+    @IBOutlet weak var card4: CardView!
     
     var arrOfCardLabels = ["10", "3", "A", "9"]
-    var arrOfCards = [#imageLiteral(resourceName: "card1"), #imageLiteral(resourceName: "card2"), #imageLiteral(resourceName: "card3"), #imageLiteral(resourceName: "card4")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let viewOfCards = [self.card1, self.card2, self.card3, self.card4]
         self.view.backgroundColor = .cyan
+        drawCards()
         
-        //self.card1.topLeftLabel?.text = "10"
-        //self.card1.cardImage.image = #imageLiteral(resourceName: "card1")
-        
+    }
+    
+    func drawCards() {
+        self.card1.card = arrOfCardLabels[0]
+        self.card2.card = arrOfCardLabels[1]
+        self.card3.card = arrOfCardLabels[2]
+        self.card4.card = arrOfCardLabels[3]
     }
 }
 

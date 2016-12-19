@@ -19,28 +19,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1gV-8n-m0z">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1gV-8n-m0z" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
                                 <color key="backgroundColor" red="1" green="0.75361733315454649" blue="0.74893486490768058" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="225" id="8dy-SV-Ajs"/>
                                     <constraint firstAttribute="width" constant="160" id="aB0-AF-Rhx"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tzr-A9-e88">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tzr-A9-e88" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
                                 <color key="backgroundColor" red="1" green="0.75361733320000002" blue="0.74893486490000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="160" id="E7F-cu-lNS"/>
                                     <constraint firstAttribute="height" constant="225" id="u8e-c2-HWI"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="byc-e4-Kzy">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="byc-e4-Kzy" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
                                 <color key="backgroundColor" red="1" green="0.75361733320000002" blue="0.74893486490000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="160" id="9OD-nw-Jqn"/>
                                     <constraint firstAttribute="height" constant="225" id="e9e-zG-ah0"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D1H-zV-q9c">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D1H-zV-q9c" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
+                                <frame key="frameInset" minX="204" minY="263" width="160" height="225"/>
                                 <color key="backgroundColor" red="1" green="0.75361733320000002" blue="0.74893486490000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="160" id="5gP-mZ-UoY"/>
