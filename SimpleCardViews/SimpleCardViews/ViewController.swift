@@ -21,6 +21,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let views = [cardView, cardFaceView2, cardFaceView3, cardFaceView4]
-        CardFaceView.loopViews(views: views as! [CardFaceView], deckArray: CardFaceView.createDeck(cardArray: CardFaceView.createCards(), suits: suits))
+        let image: [UIImage] = [
+            UIImage(named: "david")!,
+            UIImage(named: "erica")!,
+            UIImage(named: "cris")!,
+            UIImage(named:"mira")!
+        ]
+        CardFaceView.loopViews(views: views as! [CardFaceView], deckArray: CardFaceView.createDeck(cardArray: CardFaceView.createCards(), suits: suits), image: image)
     }
 }

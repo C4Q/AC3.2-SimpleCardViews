@@ -46,12 +46,15 @@ class CardFaceView: UIView {
                 deckArray.append((i, j))
             }
         }
-    print(deckArray)
         return deckArray
     }
-    static func loopViews(views: [CardFaceView], deckArray: [(String, String)]) {
+    static func loopViews(views: [CardFaceView], deckArray: [(String, String)], image: [UIImage]) {
         for i in 0...views.count - 1 {
             views[i].topCardLabel.text = deckArray[i % deckArray.count].0
+            views[i].topSuitLabel.text = deckArray[i % deckArray.count].1
+            views[i].bottomCardLabel.text = deckArray[i % deckArray.count].0
+            views[i].bottomSuitLabel.text = deckArray[i % deckArray.count].1
+            //views[i].cardFaceImageView.image = image[i % image.count]
         }
     }
 }
