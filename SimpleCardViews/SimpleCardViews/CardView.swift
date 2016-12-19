@@ -24,6 +24,11 @@ class CardView: UIView {
         if let view = Bundle.main.loadNibNamed("CardView", owner: self, options: nil)?.first as? UIView {
             self.addSubview(view)
             view.frame = self.bounds
+            
+            bottomLabel.transform = CGAffineTransform(rotationAngle: CGFloat.pi)
+            view.layer.cornerRadius = 8.5
+            view.layer.borderWidth = 1.0
+            
         }
     }
 }

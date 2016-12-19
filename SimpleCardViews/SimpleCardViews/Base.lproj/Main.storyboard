@@ -24,7 +24,6 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VW1-eN-ztR" userLabel="Top Left" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
                                 <rect key="frame" x="29.5" y="103.5" width="143" height="200"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="143" id="nHa-b6-Hw9"/>
                                     <constraint firstAttribute="height" constant="200" id="nV3-36-EuW"/>
@@ -32,7 +31,6 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iwa-FZ-3Sz" userLabel="Top Right" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
                                 <rect key="frame" x="202.5" y="103.5" width="143" height="200"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="CNC-cI-ThC"/>
                                     <constraint firstAttribute="width" constant="143" id="crv-Bk-NHJ"/>
@@ -40,7 +38,6 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iMn-Uh-A32" userLabel="Bottom Left" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
                                 <rect key="frame" x="29.5" y="363.5" width="143" height="200"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="jsm-cN-upu"/>
                                     <constraint firstAttribute="width" constant="143" id="kTA-44-RCo"/>
@@ -48,7 +45,6 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b54-LZ-87A" userLabel="Bottom Right" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
                                 <rect key="frame" x="202.5" y="363.5" width="143" height="200"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="143" id="HIr-Py-cgL"/>
                                     <constraint firstAttribute="height" constant="200" id="Hfg-NO-qOy"/>
