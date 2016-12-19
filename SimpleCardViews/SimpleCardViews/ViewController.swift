@@ -10,23 +10,28 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var cardView: CardFaceView!
-    @IBOutlet weak var cardFaceView3: CardFaceView!
-    @IBOutlet weak var cardFaceView2: CardFaceView!
-    @IBOutlet weak var cardFaceView4: CardFaceView!
+
+    @IBOutlet weak var cardView2: CardFaceView!
+    
+    @IBOutlet weak var cardView3: CardFaceView!
+    
+    @IBOutlet weak var cardView4: CardFaceView!
     
     var deckArray: [(String, String)] = []
     var cardArray: [String] = []
     let suits = ["♠", "♣", "♦", "♥"]
+    let views: [CardFaceView] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let views = [cardView, cardFaceView2, cardFaceView3, cardFaceView4]
-        let image: [UIImage] = [
-            UIImage(named: "david")!,
-            UIImage(named: "erica")!,
-            UIImage(named: "cris")!,
-            UIImage(named:"mira")!
-        ]
-        CardFaceView.loopViews(views: views as! [CardFaceView], deckArray: CardFaceView.createDeck(cardArray: CardFaceView.createCards(), suits: suits), image: image)
+        let views = [cardView!, cardView2!, cardView3!, cardView4!]
+        CardFaceView.loopViews(views: views)
+//        let image: [String] = [
+//            "david",
+//            "erica",
+//            "mira",
+//            "cris"
+//        ]
+//        CardFaceView.loopViews(views: views as! [CardFaceView], deckArray: CardFaceView.createDeck(cardArray: CardFaceView.createCards(), suits: suits), image: image)
     }
 }

@@ -29,32 +29,43 @@ class CardFaceView: UIView {
         }
     }
     
-    static func createCards() -> [String] {
-        var cardArray: [String] = []
-        let nanCards = ["A", "J", "Q", "K"]
-        var numberCards: [String] = []
-        for i in 2...10 {
-            numberCards.append(String(i))
-        }
-        cardArray = (nanCards + numberCards)
-        return cardArray
-    }
-    static func createDeck(cardArray: [String], suits: [String]) -> [(String, String)] {
-        var deckArray: [(String, String)] = []
-        for i in cardArray {
-            for j in suits {
-                deckArray.append((i, j))
-            }
-        }
-        return deckArray
-    }
-    static func loopViews(views: [CardFaceView], deckArray: [(String, String)], image: [UIImage]) {
-        for i in 0...views.count - 1 {
-            views[i].topCardLabel.text = deckArray[i % deckArray.count].0
-            views[i].topSuitLabel.text = deckArray[i % deckArray.count].1
-            views[i].bottomCardLabel.text = deckArray[i % deckArray.count].0
-            views[i].bottomSuitLabel.text = deckArray[i % deckArray.count].1
-            //views[i].cardFaceImageView.image = image[i % image.count]
+//    static func createCards() -> [String] {
+//        var cardArray: [String] = []
+//        let nanCards = ["A", "J", "Q", "K"]
+//        var numberCards: [String] = []
+//        for i in 2...10 {
+//            numberCards.append(String(i))
+//        }
+//        cardArray = (nanCards + numberCards)
+//        return cardArray
+//    }
+//    static func createDeck(cardArray: [String], suits: [String]) -> [(String, String)] {
+//        var deckArray: [(String, String)] = []
+//        for i in cardArray {
+//            for j in suits {
+//                deckArray.append((i, j))
+//            }
+//        }
+//        return deckArray
+//    }
+//    static func loopViews(views: [CardFaceView], deckArray: [(String, String)], image: [String]) {
+//        for i in 0...views.count - 1 {
+//            views[i].topCardLabel.text = deckArray[i % deckArray.count].0
+//            views[i].topSuitLabel.text = deckArray[i % deckArray.count].1
+//            views[i].bottomCardLabel.text = deckArray[i % deckArray.count].0
+//            views[i].bottomSuitLabel.text = deckArray[i % deckArray.count].1
+//            views[i].cardFaceImageView.image = UIImage(named: (String(image[i % image.count])))
+//        }
+//    }
+    static func loopViews(views: [CardFaceView]) {
+        let suits = ["♠", "♣", "♦", "♥"]
+        let imageArray: [String] = ["david", "erica", "mira", "cris"]
+        for (index, view) in views.enumerated() {
+            view.topCardLabel.text = "A"
+            view.topSuitLabel.text = suits[index]
+            view.bottomSuitLabel.text = suits[index]
+            view.bottomCardLabel.text = "A"
+            view.cardFaceImageView.image = UIImage(named: imageArray[index])
         }
     }
 }
