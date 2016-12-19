@@ -10,6 +10,7 @@
             <connections>
                 <outlet property="bottomRightLabel" destination="o4T-nm-0rE" id="AVQ-ZB-vct"/>
                 <outlet property="cardImage" destination="8qS-Fi-gOP" id="ehA-sY-N31"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="0gp-iL-YVV"/>
                 <outlet property="topLeftLabel" destination="aye-op-er6" id="SWU-xA-kgC"/>
             </connections>
         </placeholder>
