@@ -9,34 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var cardVIew: CardFaceView!
+    @IBOutlet weak var cardView: CardFaceView!
+    @IBOutlet weak var cardFaceView3: CardFaceView!
+    @IBOutlet weak var cardFaceView2: CardFaceView!
+    @IBOutlet weak var cardFaceView4: CardFaceView!
     
-    let suits = ["♠", "♣", "♦", "♥"]
     var deckArray: [(String, String)] = []
+    var cardArray: [String] = []
+    let suits = ["♠", "♣", "♦", "♥"]
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        deckArray = createDeck(array1: suits, array2: createCards())
-        print(deckArray)
+        let views = [cardView, cardFaceView2, cardFaceView3, cardFaceView4]
+        CardFaceView.loopViews(views: views as! [CardFaceView], deckArray: CardFaceView.createDeck(cardArray: CardFaceView.createCards(), suits: suits))
     }
 }
-func createCards() -> [String] {
-    var cardArray: [String] = []
-    let nanCards = ["A", "J", "Q", "K"]
-    var numberCards: [String] = []
-    for i in 2...10 {
-        numberCards.append(String(i))
-    }
-    cardArray = (nanCards + numberCards)
-    return cardArray
-}
-func createDeck(array1: [String], array2: [String]) -> [(String, String)] {
-    var deckArray: [(String, String)] = []
-    for i in array1 {
-        for j in array2 {
-            deckArray.append((i, j))
-        }
-    }
-    return deckArray
-}
-

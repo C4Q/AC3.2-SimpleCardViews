@@ -58,13 +58,13 @@
 		288685511E063F1A00A42107 /* SimpleCardViews */ = {
 			isa = PBXGroup;
 			children = (
-				288685521E063F1A00A42107 /* AppDelegate.swift */,
 				288685541E063F1A00A42107 /* ViewController.swift */,
-				288685641E06402300A42107 /* CardFace.xib */,
 				288685661E06405700A42107 /* CardFaceView.swift */,
+				288685641E06402300A42107 /* CardFace.xib */,
 				288685561E063F1B00A42107 /* Main.storyboard */,
 				288685591E063F1B00A42107 /* Assets.xcassets */,
 				2886855B1E063F1B00A42107 /* LaunchScreen.storyboard */,
+				288685521E063F1A00A42107 /* AppDelegate.swift */,
 				2886855E1E063F1B00A42107 /* Info.plist */,
 			);
 			path = SimpleCardViews;

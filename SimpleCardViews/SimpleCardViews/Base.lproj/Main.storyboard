@@ -42,7 +42,10 @@
                         <color key="backgroundColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
-                        <outlet property="cardVIew" destination="0iE-75-rgd" id="GKp-Aw-U2J"/>
+                        <outlet property="cardFaceView2" destination="viZ-5R-DJM" id="fOE-Fx-Lzu"/>
+                        <outlet property="cardFaceView3" destination="EKe-TU-YuZ" id="rTC-7H-hPL"/>
+                        <outlet property="cardFaceView4" destination="LwU-yb-th0" id="Yuh-fg-kEg"/>
+                        <outlet property="cardView" destination="0iE-75-rgd" id="Zdk-mq-nr4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

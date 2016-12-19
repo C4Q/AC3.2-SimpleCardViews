@@ -28,4 +28,30 @@ class CardFaceView: UIView {
             view.frame = self.bounds
         }
     }
+    
+    static func createCards() -> [String] {
+        var cardArray: [String] = []
+        let nanCards = ["A", "J", "Q", "K"]
+        var numberCards: [String] = []
+        for i in 2...10 {
+            numberCards.append(String(i))
+        }
+        cardArray = (nanCards + numberCards)
+        return cardArray
+    }
+    static func createDeck(cardArray: [String], suits: [String]) -> [(String, String)] {
+        var deckArray: [(String, String)] = []
+        for i in cardArray {
+            for j in suits {
+                deckArray.append((i, j))
+            }
+        }
+    print(deckArray)
+        return deckArray
+    }
+    static func loopViews(views: [CardFaceView], deckArray: [(String, String)]) {
+        for i in 0...views.count - 1 {
+            views[i].topCardLabel.text = deckArray[i % deckArray.count].0
+        }
+    }
 }

@@ -8,11 +8,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardFaceView" customModule="SimpleCardViews" customModuleProvider="target">
             <connections>
-                <outlet property="bottomCardLabel" destination="vTt-IE-nHP" id="ZVb-wE-IsI"/>
-                <outlet property="bottomSuitLabel" destination="rH7-DP-V0h" id="OKq-lh-Jab"/>
-                <outlet property="cardFaceImageView" destination="DX8-ey-mh7" id="MDr-oV-gkT"/>
-                <outlet property="topCardLabel" destination="xc6-xQ-WPd" id="zT4-et-9vg"/>
-                <outlet property="topSuitLabel" destination="TGC-bB-WcH" id="Ppe-ek-Oun"/>
+                <outlet property="bottomCardLabel" destination="rH7-DP-V0h" id="gJF-Hp-wUw"/>
+                <outlet property="bottomSuitLabel" destination="vTt-IE-nHP" id="9ND-n8-9yW"/>
+                <outlet property="topCardLabel" destination="TGC-bB-WcH" id="c8Y-Op-L6O"/>
+                <outlet property="topSuitLabel" destination="xc6-xQ-WPd" id="B4f-xh-Y7D"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
