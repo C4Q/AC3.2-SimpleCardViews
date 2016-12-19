@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="viewController" id="BYZ-38-t0r" customClass="ViewController" customModule="SimpleCardViews" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="JzN-pn-oIK" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
+                                <rect key="frame" x="16" y="55" width="150" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jrg-p7-yMV" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
+                                <rect key="frame" x="209" y="55" width="150" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="baE-yn-uEJ" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
+                                <rect key="frame" x="209" y="407" width="150" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wci-nK-SIh" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
+                                <rect key="frame" x="16" y="407" width="150" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="JzN-pn-oIK" secondAttribute="trailing" constant="209" id="2lb-TQ-3fA"/>
+                            <constraint firstAttribute="bottom" secondItem="JzN-pn-oIK" secondAttribute="bottom" constant="412" id="2qn-4M-clT"/>
+                            <constraint firstItem="jrg-p7-yMV" firstAttribute="bottom" secondItem="JzN-pn-oIK" secondAttribute="bottom" id="5Zw-53-utK"/>
+                            <constraint firstItem="Wci-nK-SIh" firstAttribute="leading" secondItem="JzN-pn-oIK" secondAttribute="leading" id="9iZ-zn-wsp"/>
+                            <constraint firstItem="baE-yn-uEJ" firstAttribute="bottom" secondItem="Wci-nK-SIh" secondAttribute="bottom" id="Dk9-Mh-kzT"/>
+                            <constraint firstItem="jrg-p7-yMV" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="F8U-Bz-qDI"/>
+                            <constraint firstItem="Wci-nK-SIh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="407" id="OOB-le-8UW"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Wci-nK-SIh" secondAttribute="bottom" constant="60" id="QXX-tC-Rot"/>
+                            <constraint firstItem="Wci-nK-SIh" firstAttribute="trailing" secondItem="JzN-pn-oIK" secondAttribute="trailing" id="SaN-0G-PmW"/>
+                            <constraint firstItem="jrg-p7-yMV" firstAttribute="top" secondItem="JzN-pn-oIK" secondAttribute="top" id="UaW-gz-DDu"/>
+                            <constraint firstItem="baE-yn-uEJ" firstAttribute="leading" secondItem="jrg-p7-yMV" secondAttribute="leading" id="V9K-AQ-v8T"/>
+                            <constraint firstItem="baE-yn-uEJ" firstAttribute="trailing" secondItem="jrg-p7-yMV" secondAttribute="trailing" id="ZEu-Do-5EL"/>
+                            <constraint firstItem="jrg-p7-yMV" firstAttribute="leading" secondItem="JzN-pn-oIK" secondAttribute="trailing" constant="43" id="aGb-MG-BVy"/>
+                            <constraint firstItem="JzN-pn-oIK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="35" id="eao-Tu-eIK"/>
+                            <constraint firstItem="JzN-pn-oIK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="fyi-Rx-YPL"/>
+                            <constraint firstItem="baE-yn-uEJ" firstAttribute="top" secondItem="Wci-nK-SIh" secondAttribute="top" id="mtN-U9-dG3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cardFourView" destination="baE-yn-uEJ" id="THg-7G-WqN"/>
+                        <outlet property="cardOneView" destination="JzN-pn-oIK" id="vQg-ZF-n8u"/>
+                        <outlet property="cardThreeView" destination="Wci-nK-SIh" id="bwv-d0-Tfq"/>
+                        <outlet property="cardTwoView" destination="jrg-p7-yMV" id="ynT-i0-Mlp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
+        </scene>
+    </scenes>
+</document>
