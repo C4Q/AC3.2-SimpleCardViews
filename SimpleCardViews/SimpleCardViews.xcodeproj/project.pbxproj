@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A8222F21E06FAE4005DBF92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8222F11E06FAE4005DBF92 /* AppDelegate.swift */; };
-		3A8222F41E06FAE4005DBF92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8222F31E06FAE4005DBF92 /* ViewController.swift */; };
-		3A8222F71E06FAE4005DBF92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8222F51E06FAE4005DBF92 /* Main.storyboard */; };
-		3A8222F91E06FAE4005DBF92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8222F81E06FAE4005DBF92 /* Assets.xcassets */; };
-		3A8222FC1E06FAE4005DBF92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8222FA1E06FAE4005DBF92 /* LaunchScreen.storyboard */; };
+		3AFEBAA91E077B480052CC3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFEBAA81E077B480052CC3C /* AppDelegate.swift */; };
+		3AFEBAAB1E077B480052CC3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFEBAAA1E077B480052CC3C /* ViewController.swift */; };
+		3AFEBAAE1E077B480052CC3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFEBAAC1E077B480052CC3C /* Main.storyboard */; };
+		3AFEBAB01E077B480052CC3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFEBAAF1E077B480052CC3C /* Assets.xcassets */; };
+		3AFEBAB31E077B480052CC3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFEBAB11E077B480052CC3C /* LaunchScreen.storyboard */; };
+		3AFEBABB1E077B870052CC3C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFEBABA1E077B870052CC3C /* CardView.swift */; };
+		3AFEBABD1E077BA30052CC3C /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AFEBABC1E077BA30052CC3C /* CardView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3A8222EE1E06FAE4005DBF92 /* SimpleCardViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCardViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A8222F11E06FAE4005DBF92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3A8222F31E06FAE4005DBF92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3A8222F61E06FAE4005DBF92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3A8222F81E06FAE4005DBF92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3A8222FB1E06FAE4005DBF92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3A8222FD1E06FAE4005DBF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AFEBAA51E077B480052CC3C /* SimpleCardViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCardViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFEBAA81E077B480052CC3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AFEBAAA1E077B480052CC3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AFEBAAD1E077B480052CC3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AFEBAAF1E077B480052CC3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AFEBAB21E077B480052CC3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AFEBAB41E077B480052CC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AFEBABA1E077B870052CC3C /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3AFEBABC1E077BA30052CC3C /* CardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3A8222EB1E06FAE3005DBF92 /* Frameworks */ = {
+		3AFEBAA21E077B480052CC3C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,31 +39,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3A8222E51E06FAE3005DBF92 = {
+		3AFEBA9C1E077B480052CC3C = {
 			isa = PBXGroup;
 			children = (
-				3A8222F01E06FAE4005DBF92 /* SimpleCardViews */,
-				3A8222EF1E06FAE4005DBF92 /* Products */,
+				3AFEBAA71E077B480052CC3C /* SimpleCardViews */,
+				3AFEBAA61E077B480052CC3C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3A8222EF1E06FAE4005DBF92 /* Products */ = {
+		3AFEBAA61E077B480052CC3C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3A8222EE1E06FAE4005DBF92 /* SimpleCardViews.app */,
+				3AFEBAA51E077B480052CC3C /* SimpleCardViews.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3A8222F01E06FAE4005DBF92 /* SimpleCardViews */ = {
+		3AFEBAA71E077B480052CC3C /* SimpleCardViews */ = {
 			isa = PBXGroup;
 			children = (
-				3A8222F11E06FAE4005DBF92 /* AppDelegate.swift */,
-				3A8222F31E06FAE4005DBF92 /* ViewController.swift */,
-				3A8222F51E06FAE4005DBF92 /* Main.storyboard */,
-				3A8222F81E06FAE4005DBF92 /* Assets.xcassets */,
-				3A8222FA1E06FAE4005DBF92 /* LaunchScreen.storyboard */,
-				3A8222FD1E06FAE4005DBF92 /* Info.plist */,
+				3AFEBAA81E077B480052CC3C /* AppDelegate.swift */,
+				3AFEBAAA1E077B480052CC3C /* ViewController.swift */,
+				3AFEBAAC1E077B480052CC3C /* Main.storyboard */,
+				3AFEBAAF1E077B480052CC3C /* Assets.xcassets */,
+				3AFEBAB11E077B480052CC3C /* LaunchScreen.storyboard */,
+				3AFEBAB41E077B480052CC3C /* Info.plist */,
+				3AFEBABA1E077B870052CC3C /* CardView.swift */,
+				3AFEBABC1E077BA30052CC3C /* CardView.xib */,
 			);
 			path = SimpleCardViews;
 			sourceTree = "<group>";
@@ -67,13 +73,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3A8222ED1E06FAE3005DBF92 /* SimpleCardViews */ = {
+		3AFEBAA41E077B480052CC3C /* SimpleCardViews */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A8223001E06FAE4005DBF92 /* Build configuration list for PBXNativeTarget "SimpleCardViews" */;
+			buildConfigurationList = 3AFEBAB71E077B480052CC3C /* Build configuration list for PBXNativeTarget "SimpleCardViews" */;
 			buildPhases = (
-				3A8222EA1E06FAE3005DBF92 /* Sources */,
-				3A8222EB1E06FAE3005DBF92 /* Frameworks */,
-				3A8222EC1E06FAE3005DBF92 /* Resources */,
+				3AFEBAA11E077B480052CC3C /* Sources */,
+				3AFEBAA21E077B480052CC3C /* Frameworks */,
+				3AFEBAA31E077B480052CC3C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,26 +87,26 @@
 			);
 			name = SimpleCardViews;
 			productName = SimpleCardViews;
-			productReference = 3A8222EE1E06FAE4005DBF92 /* SimpleCardViews.app */;
+			productReference = 3AFEBAA51E077B480052CC3C /* SimpleCardViews.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3A8222E61E06FAE3005DBF92 /* Project object */ = {
+		3AFEBA9D1E077B480052CC3C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Erica Stevens";
 				TargetAttributes = {
-					3A8222ED1E06FAE3005DBF92 = {
+					3AFEBAA41E077B480052CC3C = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 3A8222E91E06FAE3005DBF92 /* Build configuration list for PBXProject "SimpleCardViews" */;
+			buildConfigurationList = 3AFEBAA01E077B480052CC3C /* Build configuration list for PBXProject "SimpleCardViews" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,54 +114,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 3A8222E51E06FAE3005DBF92;
-			productRefGroup = 3A8222EF1E06FAE4005DBF92 /* Products */;
+			mainGroup = 3AFEBA9C1E077B480052CC3C;
+			productRefGroup = 3AFEBAA61E077B480052CC3C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3A8222ED1E06FAE3005DBF92 /* SimpleCardViews */,
+				3AFEBAA41E077B480052CC3C /* SimpleCardViews */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3A8222EC1E06FAE3005DBF92 /* Resources */ = {
+		3AFEBAA31E077B480052CC3C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A8222FC1E06FAE4005DBF92 /* LaunchScreen.storyboard in Resources */,
-				3A8222F91E06FAE4005DBF92 /* Assets.xcassets in Resources */,
-				3A8222F71E06FAE4005DBF92 /* Main.storyboard in Resources */,
+				3AFEBAB31E077B480052CC3C /* LaunchScreen.storyboard in Resources */,
+				3AFEBAB01E077B480052CC3C /* Assets.xcassets in Resources */,
+				3AFEBABD1E077BA30052CC3C /* CardView.xib in Resources */,
+				3AFEBAAE1E077B480052CC3C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3A8222EA1E06FAE3005DBF92 /* Sources */ = {
+		3AFEBAA11E077B480052CC3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A8222F41E06FAE4005DBF92 /* ViewController.swift in Sources */,
-				3A8222F21E06FAE4005DBF92 /* AppDelegate.swift in Sources */,
+				3AFEBAAB1E077B480052CC3C /* ViewController.swift in Sources */,
+				3AFEBABB1E077B870052CC3C /* CardView.swift in Sources */,
+				3AFEBAA91E077B480052CC3C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3A8222F51E06FAE4005DBF92 /* Main.storyboard */ = {
+		3AFEBAAC1E077B480052CC3C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3A8222F61E06FAE4005DBF92 /* Base */,
+				3AFEBAAD1E077B480052CC3C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3A8222FA1E06FAE4005DBF92 /* LaunchScreen.storyboard */ = {
+		3AFEBAB11E077B480052CC3C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3A8222FB1E06FAE4005DBF92 /* Base */,
+				3AFEBAB21E077B480052CC3C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +171,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3A8222FE1E06FAE4005DBF92 /* Debug */ = {
+		3AFEBAB51E077B480052CC3C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -213,7 +221,7 @@
 			};
 			name = Debug;
 		};
-		3A8222FF1E06FAE4005DBF92 /* Release */ = {
+		3AFEBAB61E077B480052CC3C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,7 +264,7 @@
 			};
 			name = Release;
 		};
-		3A8223011E06FAE4005DBF92 /* Debug */ = {
+		3AFEBAB81E077B480052CC3C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -268,7 +276,7 @@
 			};
 			name = Debug;
 		};
-		3A8223021E06FAE4005DBF92 /* Release */ = {
+		3AFEBAB91E077B480052CC3C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -283,24 +291,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3A8222E91E06FAE3005DBF92 /* Build configuration list for PBXProject "SimpleCardViews" */ = {
+		3AFEBAA01E077B480052CC3C /* Build configuration list for PBXProject "SimpleCardViews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3A8222FE1E06FAE4005DBF92 /* Debug */,
-				3A8222FF1E06FAE4005DBF92 /* Release */,
+				3AFEBAB51E077B480052CC3C /* Debug */,
+				3AFEBAB61E077B480052CC3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A8223001E06FAE4005DBF92 /* Build configuration list for PBXNativeTarget "SimpleCardViews" */ = {
+		3AFEBAB71E077B480052CC3C /* Build configuration list for PBXNativeTarget "SimpleCardViews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3A8223011E06FAE4005DBF92 /* Debug */,
-				3A8223021E06FAE4005DBF92 /* Release */,
+				3AFEBAB81E077B480052CC3C /* Debug */,
+				3AFEBAB91E077B480052CC3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3A8222E61E06FAE3005DBF92 /* Project object */;
+	rootObject = 3AFEBA9D1E077B480052CC3C /* Project object */;
 }
