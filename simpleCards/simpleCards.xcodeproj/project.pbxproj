@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		702DAA1A1E0786E500793B2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702DAA191E0786E500793B2F /* AppDelegate.swift */; };
+		702DAA1C1E0786E500793B2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702DAA1B1E0786E500793B2F /* ViewController.swift */; };
+		702DAA1F1E0786E500793B2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702DAA1D1E0786E500793B2F /* Main.storyboard */; };
+		702DAA211E0786E500793B2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702DAA201E0786E500793B2F /* Assets.xcassets */; };
+		702DAA241E0786E500793B2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702DAA221E0786E500793B2F /* LaunchScreen.storyboard */; };
+		702DAA2F1E0786E500793B2F /* simpleCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702DAA2E1E0786E500793B2F /* simpleCardsTests.swift */; };
+		702DAA3A1E0786E500793B2F /* simpleCardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702DAA391E0786E500793B2F /* simpleCardsUITests.swift */; };
+		702DAA481E07870600793B2F /* cardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 702DAA471E07870600793B2F /* cardView.xib */; };
+		702DAA4A1E07871100793B2F /* cardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702DAA491E07871100793B2F /* cardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		702DAA2B1E0786E500793B2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 702DAA0E1E0786E500793B2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 702DAA151E0786E500793B2F;
+			remoteInfo = simpleCards;
+		};
+		702DAA361E0786E500793B2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 702DAA0E1E0786E500793B2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 702DAA151E0786E500793B2F;
+			remoteInfo = simpleCards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		702DAA161E0786E500793B2F /* simpleCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpleCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		702DAA191E0786E500793B2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		702DAA1B1E0786E500793B2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		702DAA1E1E0786E500793B2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		702DAA201E0786E500793B2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		702DAA231E0786E500793B2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		702DAA251E0786E500793B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		702DAA2A1E0786E500793B2F /* simpleCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		702DAA2E1E0786E500793B2F /* simpleCardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleCardsTests.swift; sourceTree = "<group>"; };
+		702DAA301E0786E500793B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		702DAA351E0786E500793B2F /* simpleCardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleCardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		702DAA391E0786E500793B2F /* simpleCardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleCardsUITests.swift; sourceTree = "<group>"; };
+		702DAA3B1E0786E500793B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		702DAA471E07870600793B2F /* cardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cardView.xib; sourceTree = "<group>"; };
+		702DAA491E07871100793B2F /* cardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		702DAA131E0786E500793B2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702DAA271E0786E500793B2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702DAA321E0786E500793B2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		702DAA0D1E0786E500793B2F = {
+			isa = PBXGroup;
+			children = (
+				702DAA181E0786E500793B2F /* simpleCards */,
+				702DAA2D1E0786E500793B2F /* simpleCardsTests */,
+				702DAA381E0786E500793B2F /* simpleCardsUITests */,
+				702DAA171E0786E500793B2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		702DAA171E0786E500793B2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				702DAA161E0786E500793B2F /* simpleCards.app */,
+				702DAA2A1E0786E500793B2F /* simpleCardsTests.xctest */,
+				702DAA351E0786E500793B2F /* simpleCardsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		702DAA181E0786E500793B2F /* simpleCards */ = {
+			isa = PBXGroup;
+			children = (
+				702DAA191E0786E500793B2F /* AppDelegate.swift */,
+				702DAA1B1E0786E500793B2F /* ViewController.swift */,
+				702DAA471E07870600793B2F /* cardView.xib */,
+				702DAA491E07871100793B2F /* cardView.swift */,
+				702DAA1D1E0786E500793B2F /* Main.storyboard */,
+				702DAA201E0786E500793B2F /* Assets.xcassets */,
+				702DAA221E0786E500793B2F /* LaunchScreen.storyboard */,
+				702DAA251E0786E500793B2F /* Info.plist */,
+			);
+			path = simpleCards;
+			sourceTree = "<group>";
+		};
+		702DAA2D1E0786E500793B2F /* simpleCardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				702DAA2E1E0786E500793B2F /* simpleCardsTests.swift */,
+				702DAA301E0786E500793B2F /* Info.plist */,
+			);
+			path = simpleCardsTests;
+			sourceTree = "<group>";
+		};
+		702DAA381E0786E500793B2F /* simpleCardsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				702DAA391E0786E500793B2F /* simpleCardsUITests.swift */,
+				702DAA3B1E0786E500793B2F /* Info.plist */,
+			);
+			path = simpleCardsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		702DAA151E0786E500793B2F /* simpleCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 702DAA3E1E0786E500793B2F /* Build configuration list for PBXNativeTarget "simpleCards" */;
+			buildPhases = (
+				702DAA121E0786E500793B2F /* Sources */,
+				702DAA131E0786E500793B2F /* Frameworks */,
+				702DAA141E0786E500793B2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = simpleCards;
+			productName = simpleCards;
+			productReference = 702DAA161E0786E500793B2F /* simpleCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		702DAA291E0786E500793B2F /* simpleCardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 702DAA411E0786E500793B2F /* Build configuration list for PBXNativeTarget "simpleCardsTests" */;
+			buildPhases = (
+				702DAA261E0786E500793B2F /* Sources */,
+				702DAA271E0786E500793B2F /* Frameworks */,
+				702DAA281E0786E500793B2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				702DAA2C1E0786E500793B2F /* PBXTargetDependency */,
+			);
+			name = simpleCardsTests;
+			productName = simpleCardsTests;
+			productReference = 702DAA2A1E0786E500793B2F /* simpleCardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		702DAA341E0786E500793B2F /* simpleCardsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 702DAA441E0786E500793B2F /* Build configuration list for PBXNativeTarget "simpleCardsUITests" */;
+			buildPhases = (
+				702DAA311E0786E500793B2F /* Sources */,
+				702DAA321E0786E500793B2F /* Frameworks */,
+				702DAA331E0786E500793B2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				702DAA371E0786E500793B2F /* PBXTargetDependency */,
+			);
+			name = simpleCardsUITests;
+			productName = simpleCardsUITests;
+			productReference = 702DAA351E0786E500793B2F /* simpleCardsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		702DAA0E1E0786E500793B2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = C4Q;
+				TargetAttributes = {
+					702DAA151E0786E500793B2F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					702DAA291E0786E500793B2F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 702DAA151E0786E500793B2F;
+					};
+					702DAA341E0786E500793B2F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 702DAA151E0786E500793B2F;
+					};
+				};
+			};
+			buildConfigurationList = 702DAA111E0786E500793B2F /* Build configuration list for PBXProject "simpleCards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 702DAA0D1E0786E500793B2F;
+			productRefGroup = 702DAA171E0786E500793B2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				702DAA151E0786E500793B2F /* simpleCards */,
+				702DAA291E0786E500793B2F /* simpleCardsTests */,
+				702DAA341E0786E500793B2F /* simpleCardsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		702DAA141E0786E500793B2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702DAA241E0786E500793B2F /* LaunchScreen.storyboard in Resources */,
+				702DAA211E0786E500793B2F /* Assets.xcassets in Resources */,
+				702DAA481E07870600793B2F /* cardView.xib in Resources */,
+				702DAA1F1E0786E500793B2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702DAA281E0786E500793B2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702DAA331E0786E500793B2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		702DAA121E0786E500793B2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702DAA4A1E07871100793B2F /* cardView.swift in Sources */,
+				702DAA1C1E0786E500793B2F /* ViewController.swift in Sources */,
+				702DAA1A1E0786E500793B2F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702DAA261E0786E500793B2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702DAA2F1E0786E500793B2F /* simpleCardsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702DAA311E0786E500793B2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702DAA3A1E0786E500793B2F /* simpleCardsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		702DAA2C1E0786E500793B2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 702DAA151E0786E500793B2F /* simpleCards */;
+			targetProxy = 702DAA2B1E0786E500793B2F /* PBXContainerItemProxy */;
+		};
+		702DAA371E0786E500793B2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 702DAA151E0786E500793B2F /* simpleCards */;
+			targetProxy = 702DAA361E0786E500793B2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		702DAA1D1E0786E500793B2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				702DAA1E1E0786E500793B2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		702DAA221E0786E500793B2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				702DAA231E0786E500793B2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		702DAA3C1E0786E500793B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		702DAA3D1E0786E500793B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		702DAA3F1E0786E500793B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = simpleCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.amberspadafora.simpleCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		702DAA401E0786E500793B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = simpleCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.amberspadafora.simpleCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		702DAA421E0786E500793B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = simpleCardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.amberspadafora.simpleCardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simpleCards.app/simpleCards";
+			};
+			name = Debug;
+		};
+		702DAA431E0786E500793B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = simpleCardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.amberspadafora.simpleCardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simpleCards.app/simpleCards";
+			};
+			name = Release;
+		};
+		702DAA451E0786E500793B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = simpleCardsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.amberspadafora.simpleCardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = simpleCards;
+			};
+			name = Debug;
+		};
+		702DAA461E0786E500793B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = simpleCardsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.amberspadafora.simpleCardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = simpleCards;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		702DAA111E0786E500793B2F /* Build configuration list for PBXProject "simpleCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702DAA3C1E0786E500793B2F /* Debug */,
+				702DAA3D1E0786E500793B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		702DAA3E1E0786E500793B2F /* Build configuration list for PBXNativeTarget "simpleCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702DAA3F1E0786E500793B2F /* Debug */,
+				702DAA401E0786E500793B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		702DAA411E0786E500793B2F /* Build configuration list for PBXNativeTarget "simpleCardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702DAA421E0786E500793B2F /* Debug */,
+				702DAA431E0786E500793B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		702DAA441E0786E500793B2F /* Build configuration list for PBXNativeTarget "simpleCardsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702DAA451E0786E500793B2F /* Debug */,
+				702DAA461E0786E500793B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 702DAA0E1E0786E500793B2F /* Project object */;
+}

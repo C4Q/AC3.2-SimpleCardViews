@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="cardView" customModule="simpleCards" customModuleProvider="target">
+            <connections>
+                <outlet property="bottomLabel" destination="PDl-Zu-Z7c" id="4dM-cW-Qli"/>
+                <outlet property="cardImage" destination="LlJ-Df-PHv" id="1el-mp-AHs"/>
+                <outlet property="topLabel" destination="6Bx-1k-KSv" id="ucA-XV-SuD"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="125" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LlJ-Df-PHv">
+                    <rect key="frame" x="16" y="41" width="93" height="119"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDl-Zu-Z7c">
+                    <rect key="frame" x="59" y="170" width="50" height="33"/>
+                    <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Bx-1k-KSv">
+                    <rect key="frame" x="16" y="11" width="50" height="20"/>
+                    <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="20"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="PDl-Zu-Z7c" firstAttribute="top" secondItem="LlJ-Df-PHv" secondAttribute="bottom" constant="10" id="5dJ-y7-Zct"/>
+                <constraint firstAttribute="bottom" relation="lessThanOrEqual" secondItem="PDl-Zu-Z7c" secondAttribute="bottom" constant="12" id="7Sa-UO-Ue4"/>
+                <constraint firstItem="6Bx-1k-KSv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="11" id="ClZ-w8-krq"/>
+                <constraint firstItem="6Bx-1k-KSv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="OgO-U9-N78"/>
+                <constraint firstAttribute="trailing" secondItem="LlJ-Df-PHv" secondAttribute="trailing" constant="16" id="QET-oc-vX5"/>
+                <constraint firstAttribute="trailing" secondItem="6Bx-1k-KSv" secondAttribute="trailing" constant="59" id="Rj6-T7-NRc"/>
+                <constraint firstItem="LlJ-Df-PHv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="41" id="Te9-xf-F1J"/>
+                <constraint firstAttribute="trailing" secondItem="PDl-Zu-Z7c" secondAttribute="trailing" constant="16" id="aVT-8V-zuE"/>
+                <constraint firstItem="LlJ-Df-PHv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="bhm-hY-toF"/>
+                <constraint firstItem="PDl-Zu-Z7c" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="59" id="evH-ST-2l9"/>
+                <constraint firstAttribute="bottom" secondItem="LlJ-Df-PHv" secondAttribute="bottom" constant="40" id="nrA-SQ-bAq"/>
+                <constraint firstItem="LlJ-Df-PHv" firstAttribute="top" secondItem="6Bx-1k-KSv" secondAttribute="bottom" constant="10" id="xP2-GR-4VM"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="136" y="58"/>
+        </view>
+    </objects>
+</document>
