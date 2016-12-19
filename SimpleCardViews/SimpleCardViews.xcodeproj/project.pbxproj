@@ -16,6 +16,7 @@
 		D38357BC1E060A4E00337886 /* CardFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38357BB1E060A4E00337886 /* CardFace.swift */; };
 		D38357BE1E06477900337886 /* GetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38357BD1E06477900337886 /* GetData.swift */; };
 		D38357C21E071E4C00337886 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38357C11E071E4C00337886 /* OtherViewController.swift */; };
+		D38357C41E076F6E00337886 /* Suit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38357C31E076F6E00337886 /* Suit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D38357BB1E060A4E00337886 /* CardFace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardFace.swift; path = ../CardFace.swift; sourceTree = "<group>"; };
 		D38357BD1E06477900337886 /* GetData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetData.swift; sourceTree = "<group>"; };
 		D38357C11E071E4C00337886 /* OtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		D38357C31E076F6E00337886 /* Suit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Suit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		D38357B61E06089500337886 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D38357C31E076F6E00337886 /* Suit.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				D38357A21E06085D00337886 /* AppDelegate.swift in Sources */,
 				D38357BE1E06477900337886 /* GetData.swift in Sources */,
 				D38357BC1E060A4E00337886 /* CardFace.swift in Sources */,
+				D38357C41E076F6E00337886 /* Suit.swift in Sources */,
 				D38357C21E071E4C00337886 /* OtherViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

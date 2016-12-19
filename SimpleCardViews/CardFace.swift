@@ -10,13 +10,12 @@ import UIKit
 
 class CardFace: UIView {
     
-    @IBOutlet weak var numbering: UILabel!
-    @IBOutlet weak var suit: UILabel!
-    @IBOutlet weak var numberingReversed: UILabel!
-    @IBOutlet weak var suitReversed: UILabel!
+    @IBOutlet weak var numberLabel: UILabel!
+    @IBOutlet weak var suitLabel: UILabel!
+    @IBOutlet weak var numberLabelReversed: UILabel!
+    @IBOutlet weak var suitLabelReversed: UILabel!
     @IBOutlet weak var pic: UIImageView!
     
-    static let suits = ["♠︎","♥︎","♣︎","♦︎"]
     static let numbers = ["A","2","3","4","5","6","7","8","9","10","J","Q","K"]
     static let imageURLs: [Any] = [
         [
@@ -70,55 +69,36 @@ class CardFace: UIView {
             layer.borderColor = UIColor.black.cgColor
             
             // this bit turns the suit & num upside down -- the units are in radians
-            numberingReversed.transform = CGAffineTransform(rotationAngle: -CGFloat.pi)
-            suitReversed.transform = CGAffineTransform(rotationAngle: -CGFloat.pi)
+            numberLabelReversed.transform = CGAffineTransform(rotationAngle: -CGFloat.pi)
+            suitLabelReversed.transform = CGAffineTransform(rotationAngle: -CGFloat.pi)
         }
     }
     
-    static func label(_ card: CardFace, valueOfCard: Int, suitIndex: Int) {
+    static func label(_ card: CardFace, valueOfCard: Int, suitOfCard: Suit) {
         let numberIndex = valueOfCard - 1
-        card.numbering.text = numbers[numberIndex % numbers.count]
-        card.numberingReversed.text = card.numbering.text
-        card.suit.text = suits[suitIndex % suits.count]
-        card.suitReversed.text = card.suit.text
+        card.numberLabel.text = numbers[numberIndex % numbers.count]
+        card.numberLabelReversed.text = card.numberLabel.text
+        card.suitLabel.text = suitOfCard.symbol()
+        card.suitLabelReversed.text = card.suitLabel.text
         
         if numberIndex % numbers.count != 0 {
             downloadImage(url: imageURLs[numberIndex % imageURLs.count] as! URL, card: card)
         } else {
-            let correctAce: Int
-            switch card.suit.text! {
-            case "♠︎":
-                correctAce = 0
-            case "♥︎":
-                correctAce = 1
-            case "♣︎":
-                correctAce = 2
-            case "♦︎":
-                correctAce = 3
-            default:
-                correctAce = 0
-            }
             let innerArr = imageURLs[0] as! [URL]
-            downloadImage(url: innerArr[correctAce], card: card)
+            downloadImage(url: innerArr[suitOfCard.rawValue], card: card)
         }
         
-        let color: UIColor
+        let color = suitOfCard.color()
         
-        if card.suit.text == "♠︎" || card.suit.text == "♣︎" {
-            color = .black
-        } else {
-            color = .red
-        }
-        
-        card.suit.textColor = color
-        card.suitReversed.textColor = color
-        card.numbering.textColor = color
-        card.numberingReversed.textColor = color
+        card.suitLabel.textColor = color
+        card.suitLabelReversed.textColor = color
+        card.numberLabel.textColor = color
+        card.numberLabelReversed.textColor = color
     }
     
     static func label(_ cards: [CardFace]) {
         for index in 0..<cards.count {
-            label(cards[index], valueOfCard: index + 1, suitIndex: index)
+            label(cards[index], valueOfCard: index + 1, suitOfCard: Suit(rawValue: index % 4)!)
         }
     }
 }

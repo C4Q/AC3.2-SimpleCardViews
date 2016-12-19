@@ -11,11 +11,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="CardFace" customClass="CardFace" customModule="SimpleCardViews" customModuleProvider="target">
             <connections>
-                <outlet property="numbering" destination="sFe-88-xWv" id="cYo-NE-M5a"/>
-                <outlet property="numberingReversed" destination="dfu-0s-cqX" id="U01-N8-fRx"/>
+                <outlet property="numberLabel" destination="sFe-88-xWv" id="Kbp-GX-NVR"/>
+                <outlet property="numberLabelReversed" destination="dfu-0s-cqX" id="7hg-Jh-cvb"/>
                 <outlet property="pic" destination="4MY-Iv-aH4" id="fBb-NY-hMH"/>
-                <outlet property="suit" destination="sPm-ym-Obx" id="sPR-Ve-KAL"/>
-                <outlet property="suitReversed" destination="gfQ-kJ-EYg" id="HWY-6w-Jb6"/>
+                <outlet property="suitLabel" destination="sPm-ym-Obx" id="VqH-0G-y0B"/>
+                <outlet property="suitLabelReversed" destination="gfQ-kJ-EYg" id="AIG-9g-b08"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
