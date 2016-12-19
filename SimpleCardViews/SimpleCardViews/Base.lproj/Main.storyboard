@@ -22,7 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VW1-eN-ztR" userLabel="Top Left">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VW1-eN-ztR" userLabel="Top Left" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
                                 <rect key="frame" x="29.5" y="103.5" width="143" height="200"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -30,7 +30,7 @@
                                     <constraint firstAttribute="height" constant="200" id="nV3-36-EuW"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iwa-FZ-3Sz" userLabel="Top Right">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iwa-FZ-3Sz" userLabel="Top Right" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
                                 <rect key="frame" x="202.5" y="103.5" width="143" height="200"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -38,7 +38,7 @@
                                     <constraint firstAttribute="width" constant="143" id="crv-Bk-NHJ"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iMn-Uh-A32" userLabel="Bottom Left">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iMn-Uh-A32" userLabel="Bottom Left" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
                                 <rect key="frame" x="29.5" y="363.5" width="143" height="200"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -46,7 +46,7 @@
                                     <constraint firstAttribute="width" constant="143" id="kTA-44-RCo"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b54-LZ-87A" userLabel="Bottom Right">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b54-LZ-87A" userLabel="Bottom Right" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
                                 <rect key="frame" x="202.5" y="363.5" width="143" height="200"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -68,10 +68,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="bottomLeft" destination="iMn-Uh-A32" id="so1-5K-h1M"/>
-                        <outlet property="bottomRight" destination="b54-LZ-87A" id="D97-nr-2Nf"/>
-                        <outlet property="topLeft" destination="VW1-eN-ztR" id="ksf-wF-VAa"/>
-                        <outlet property="topRight" destination="iwa-FZ-3Sz" id="z4j-EC-Sfc"/>
+                        <outlet property="bottomLeft" destination="iMn-Uh-A32" id="rCP-Ua-wae"/>
+                        <outlet property="bottomRight" destination="b54-LZ-87A" id="Q8k-u3-QN7"/>
+                        <outlet property="topLeft" destination="VW1-eN-ztR" id="1VI-4J-dIi"/>
+                        <outlet property="topRight" destination="iwa-FZ-3Sz" id="LvI-RX-QIa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

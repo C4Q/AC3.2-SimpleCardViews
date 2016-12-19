@@ -58,16 +58,32 @@
 		9EFFA3C51E0797960065DF33 /* SimpleCardViews */ = {
 			isa = PBXGroup;
 			children = (
-				9EFFA3C61E0797960065DF33 /* AppDelegate.swift */,
-				9EFFA3C81E0797960065DF33 /* ViewController.swift */,
-				9EFFA3CA1E0797960065DF33 /* Main.storyboard */,
-				9EFFA3CD1E0797960065DF33 /* Assets.xcassets */,
-				9EFFA3CF1E0797960065DF33 /* LaunchScreen.storyboard */,
-				9EFFA3D21E0797960065DF33 /* Info.plist */,
-				9EFFA3D81E07BCE30065DF33 /* CardView.swift */,
-				9EFFA3DA1E07BCEE0065DF33 /* CardView.xib */,
+				9EFFA3DE1E07CCEC0065DF33 /* Supporting Files */,
+				9EFFA3E01E07CD000065DF33 /* View Controllers, etc */,
 			);
 			path = SimpleCardViews;
+			sourceTree = "<group>";
+		};
+		9EFFA3DE1E07CCEC0065DF33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EFFA3C61E0797960065DF33 /* AppDelegate.swift */,
+				9EFFA3CD1E0797960065DF33 /* Assets.xcassets */,
+				9EFFA3D21E0797960065DF33 /* Info.plist */,
+				9EFFA3CF1E0797960065DF33 /* LaunchScreen.storyboard */,
+				9EFFA3CA1E0797960065DF33 /* Main.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9EFFA3E01E07CD000065DF33 /* View Controllers, etc */ = {
+			isa = PBXGroup;
+			children = (
+				9EFFA3DA1E07BCEE0065DF33 /* CardView.xib */,
+				9EFFA3D81E07BCE30065DF33 /* CardView.swift */,
+				9EFFA3C81E0797960065DF33 /* ViewController.swift */,
+			);
+			name = "View Controllers, etc";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,6 +323,7 @@
 				9EFFA3D71E0797960065DF33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
