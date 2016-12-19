@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SimpleCardViews" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ssn-lN-I8S" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
+                                <rect key="frame" x="16" y="124" width="164" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="SXe-bk-vnc"/>
+                                    <constraint firstAttribute="width" constant="164" id="oqM-Zo-dix"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ifu-Gj-gDj" userLabel="Top Right" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
+                                <rect key="frame" x="195" y="124" width="164" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="164" id="huU-WA-Fwg"/>
+                                    <constraint firstAttribute="height" constant="200" id="wk7-Ty-MPU"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ym0-i0-8R4" userLabel="Bottom Left" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
+                                <rect key="frame" x="16" y="342" width="164" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="164" id="2cV-gU-Mtt"/>
+                                    <constraint firstAttribute="height" constant="200" id="4yx-Ga-ZUx"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iSe-HM-Hzj" userLabel="Bottom Right" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
+                                <rect key="frame" x="195" y="342" width="164" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="FQd-ue-3gV"/>
+                                    <constraint firstAttribute="width" constant="164" id="aUY-1j-pcH"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97513920070000004" green="0.86683017019999997" blue="0.83244711159999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ym0-i0-8R4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="23V-ZW-Nug"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ym0-i0-8R4" secondAttribute="bottom" constant="125" id="4pY-cE-hy7"/>
+                            <constraint firstItem="ssn-lN-I8S" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="E1t-vi-MVE"/>
+                            <constraint firstItem="ssn-lN-I8S" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="104" id="Nu6-QB-8C2"/>
+                            <constraint firstAttribute="trailing" secondItem="iSe-HM-Hzj" secondAttribute="trailing" constant="16" id="eg2-0H-UI6"/>
+                            <constraint firstItem="Ifu-Gj-gDj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="104" id="fG2-ey-rtA"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="iSe-HM-Hzj" secondAttribute="bottom" constant="125" id="xNq-RL-Djy"/>
+                            <constraint firstAttribute="trailing" secondItem="Ifu-Gj-gDj" secondAttribute="trailing" constant="16" id="xzf-dt-ifh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bottomLeft" destination="Ym0-i0-8R4" id="Aaq-dM-td5"/>
+                        <outlet property="bottomRight" destination="iSe-HM-Hzj" id="rzO-Jt-5Tc"/>
+                        <outlet property="topLeft" destination="ssn-lN-I8S" id="lum-Jg-rPu"/>
+                        <outlet property="topRight" destination="Ifu-Gj-gDj" id="6YC-T5-CQc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-134" y="-149"/>
+        </scene>
+    </scenes>
+</document>
