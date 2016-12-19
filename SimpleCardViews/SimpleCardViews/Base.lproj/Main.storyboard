@@ -86,6 +86,21 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.98594677450000001" green="0.0" blue="0.039444983009999997" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JtV-MK-7UW" customClass="CardFace" customModule="SimpleCardViews" customModuleProvider="target">
+                                <rect key="frame" x="21" y="517" width="107" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99859416479999996" green="0.93302476410000001" blue="0.75633931160000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xYS-yN-uVx" customClass="CardFace" customModule="SimpleCardViews" customModuleProvider="target">
+                                <rect key="frame" x="107" y="549" width="107" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zt1-Hq-gUJ" customClass="CardFace" customModule="SimpleCardViews" customModuleProvider="target">
+                                <rect key="frame" x="191" y="586" width="107" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.098039215690000001" green="0.33725490200000002" blue="0.1058823529" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -100,9 +115,12 @@
                         <outlet property="card7" destination="n6N-Tv-KXN" id="aRR-tY-6aN"/>
                         <outlet property="card8" destination="YgT-tU-CJz" id="axj-Av-G8C"/>
                         <outlet property="card9" destination="f8G-xi-HvK" id="ktC-1v-QV8"/>
+                        <outlet property="cardDIAMOND" destination="xYS-yN-uVx" id="AC4-VP-q7Z"/>
+                        <outlet property="cardHEART" destination="Zt1-Hq-gUJ" id="AbM-zC-zxz"/>
                         <outlet property="cardJ" destination="gWu-Es-FiI" id="gyn-8k-hfZ"/>
                         <outlet property="cardK" destination="rIF-r1-Q2D" id="zDt-sX-EJr"/>
                         <outlet property="cardQ" destination="ctA-59-l16" id="u2b-p9-Qk4"/>
+                        <outlet property="cardSPADE" destination="JtV-MK-7UW" id="NUu-m0-nd3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

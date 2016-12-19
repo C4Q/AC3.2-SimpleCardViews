@@ -75,14 +75,15 @@ class CardFace: UIView {
         }
     }
     
-    static func label(_ card: CardFace, magicNumber: Int) {
-        card.numbering.text = numbers[magicNumber % numbers.count]
+    static func label(_ card: CardFace, valueOfCard: Int, suitIndex: Int) {
+        let numberIndex = valueOfCard - 1
+        card.numbering.text = numbers[numberIndex % numbers.count]
         card.numberingReversed.text = card.numbering.text
-        card.suit.text = suits[magicNumber % suits.count]
+        card.suit.text = suits[suitIndex % suits.count]
         card.suitReversed.text = card.suit.text
         
-        if magicNumber % suits.count != 0 {
-            downloadImage(url: imageURLs[magicNumber % imageURLs.count] as! URL, card: card)
+        if numberIndex % numbers.count != 0 {
+            downloadImage(url: imageURLs[numberIndex % imageURLs.count] as! URL, card: card)
         } else {
             let correctAce: Int
             switch card.suit.text! {
@@ -117,7 +118,7 @@ class CardFace: UIView {
     
     static func label(_ cards: [CardFace]) {
         for index in 0..<cards.count {
-            label(cards[index], magicNumber: index)
+            label(cards[index], valueOfCard: index + 1, suitIndex: index)
         }
     }
 }

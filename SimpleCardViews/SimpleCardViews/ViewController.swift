@@ -24,11 +24,18 @@ class ViewController: UIViewController {
     @IBOutlet weak var cardQ: CardFace!
     @IBOutlet weak var cardK: CardFace!
     
+    @IBOutlet weak var cardHEART: CardFace!
+    @IBOutlet weak var cardSPADE: CardFace!
+    @IBOutlet weak var cardDIAMOND: CardFace!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let cards = [card1!,card2!,card3!,card4!,card5!,card6!,card7!,card8!,card9!,card10!,cardJ!,cardQ!,cardK!]
         
         CardFace.label(cards)
+        CardFace.label(cardHEART, valueOfCard: 1, suitIndex: 1)
+        CardFace.label(cardSPADE, valueOfCard: 1, suitIndex: 2)
+        CardFace.label(cardDIAMOND, valueOfCard: 1, suitIndex: 3)
     }
 }
