@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SimpleCardViews" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qdz-lS-z7L" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
+                                <rect key="frame" x="26" y="83" width="146" height="206"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="206" id="aj7-Z7-rof"/>
+                                    <constraint firstAttribute="width" constant="146" id="bo7-b1-HZ9"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xm8-mf-VMO" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
+                                <rect key="frame" x="202" y="83" width="146" height="206"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="206" id="CAg-Wf-Mne"/>
+                                    <constraint firstAttribute="width" constant="146" id="hmE-Fs-Jlb"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q8g-kC-FoO" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
+                                <rect key="frame" x="26" y="320" width="146" height="206"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="206" id="7vj-Rw-YQ5"/>
+                                    <constraint firstAttribute="width" constant="146" id="UMk-9F-4Db"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ct5-ZK-WYr" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
+                                <rect key="frame" x="202" y="320" width="146" height="206"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="206" id="aDo-Hz-eED"/>
+                                    <constraint firstAttribute="width" constant="146" id="ikT-eF-dpz"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.090338908135890961" green="0.66327083110809326" blue="0.26337993144989014" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ct5-ZK-WYr" firstAttribute="leading" secondItem="Xm8-mf-VMO" secondAttribute="leading" id="15u-rP-hx7"/>
+                            <constraint firstItem="Xm8-mf-VMO" firstAttribute="leading" secondItem="Qdz-lS-z7L" secondAttribute="trailing" constant="30" id="73L-Uk-usw"/>
+                            <constraint firstItem="Qdz-lS-z7L" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="63" id="CQk-94-FYb"/>
+                            <constraint firstItem="Qdz-lS-z7L" firstAttribute="leading" secondItem="q8g-kC-FoO" secondAttribute="leading" id="IMd-Ve-Gdu"/>
+                            <constraint firstItem="q8g-kC-FoO" firstAttribute="top" secondItem="Qdz-lS-z7L" secondAttribute="bottom" constant="31" id="UPU-xb-8qq"/>
+                            <constraint firstItem="Ct5-ZK-WYr" firstAttribute="top" secondItem="q8g-kC-FoO" secondAttribute="top" id="YCF-ak-1AI"/>
+                            <constraint firstItem="Qdz-lS-z7L" firstAttribute="top" secondItem="Xm8-mf-VMO" secondAttribute="top" id="mGF-lN-JZc"/>
+                            <constraint firstItem="Qdz-lS-z7L" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="p7A-g8-p8s"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bottomLeftView" destination="q8g-kC-FoO" id="BxN-pQ-1jB"/>
+                        <outlet property="bottomRightView" destination="Ct5-ZK-WYr" id="Fog-HS-feQ"/>
+                        <outlet property="topLeftView" destination="Qdz-lS-z7L" id="ask-Ta-9ew"/>
+                        <outlet property="topRightView" destination="Xm8-mf-VMO" id="MRB-V6-bjK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="110.19490254872565"/>
+        </scene>
+    </scenes>
+</document>
