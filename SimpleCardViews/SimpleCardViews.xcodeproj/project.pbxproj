@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4706CCC01E06F8D60073287D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4706CCBF1E06F8D60073287D /* AppDelegate.swift */; };
+		4706CCC21E06F8D60073287D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4706CCC11E06F8D60073287D /* ViewController.swift */; };
+		4706CCC51E06F8D60073287D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4706CCC31E06F8D60073287D /* Main.storyboard */; };
+		4706CCC71E06F8D60073287D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4706CCC61E06F8D60073287D /* Assets.xcassets */; };
+		4706CCCA1E06F8D60073287D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4706CCC81E06F8D60073287D /* LaunchScreen.storyboard */; };
+		4706CCD21E06FCB50073287D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4706CCD11E06FCB50073287D /* CardView.swift */; };
+		4706CCD41E06FD140073287D /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4706CCD31E06FD140073287D /* CardView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4706CCBC1E06F8D60073287D /* SimpleCardViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCardViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4706CCBF1E06F8D60073287D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4706CCC11E06F8D60073287D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4706CCC41E06F8D60073287D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4706CCC61E06F8D60073287D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4706CCC91E06F8D60073287D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4706CCCB1E06F8D60073287D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4706CCD11E06FCB50073287D /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		4706CCD31E06FD140073287D /* CardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4706CCB91E06F8D60073287D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4706CCB31E06F8D60073287D = {
+			isa = PBXGroup;
+			children = (
+				4706CCBE1E06F8D60073287D /* SimpleCardViews */,
+				4706CCBD1E06F8D60073287D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4706CCBD1E06F8D60073287D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4706CCBC1E06F8D60073287D /* SimpleCardViews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4706CCBE1E06F8D60073287D /* SimpleCardViews */ = {
+			isa = PBXGroup;
+			children = (
+				4706CCBF1E06F8D60073287D /* AppDelegate.swift */,
+				4706CCC11E06F8D60073287D /* ViewController.swift */,
+				4706CCD11E06FCB50073287D /* CardView.swift */,
+				4706CCD31E06FD140073287D /* CardView.xib */,
+				4706CCC31E06F8D60073287D /* Main.storyboard */,
+				4706CCC61E06F8D60073287D /* Assets.xcassets */,
+				4706CCC81E06F8D60073287D /* LaunchScreen.storyboard */,
+				4706CCCB1E06F8D60073287D /* Info.plist */,
+			);
+			path = SimpleCardViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4706CCBB1E06F8D60073287D /* SimpleCardViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4706CCCE1E06F8D60073287D /* Build configuration list for PBXNativeTarget "SimpleCardViews" */;
+			buildPhases = (
+				4706CCB81E06F8D60073287D /* Sources */,
+				4706CCB91E06F8D60073287D /* Frameworks */,
+				4706CCBA1E06F8D60073287D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleCardViews;
+			productName = SimpleCardViews;
+			productReference = 4706CCBC1E06F8D60073287D /* SimpleCardViews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4706CCB41E06F8D60073287D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Harichandan Singh";
+				TargetAttributes = {
+					4706CCBB1E06F8D60073287D = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = R7DWEPXN5Y;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4706CCB71E06F8D60073287D /* Build configuration list for PBXProject "SimpleCardViews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4706CCB31E06F8D60073287D;
+			productRefGroup = 4706CCBD1E06F8D60073287D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4706CCBB1E06F8D60073287D /* SimpleCardViews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4706CCBA1E06F8D60073287D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4706CCCA1E06F8D60073287D /* LaunchScreen.storyboard in Resources */,
+				4706CCC71E06F8D60073287D /* Assets.xcassets in Resources */,
+				4706CCD41E06FD140073287D /* CardView.xib in Resources */,
+				4706CCC51E06F8D60073287D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4706CCB81E06F8D60073287D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4706CCC21E06F8D60073287D /* ViewController.swift in Sources */,
+				4706CCD21E06FCB50073287D /* CardView.swift in Sources */,
+				4706CCC01E06F8D60073287D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4706CCC31E06F8D60073287D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4706CCC41E06F8D60073287D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4706CCC81E06F8D60073287D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4706CCC91E06F8D60073287D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4706CCCC1E06F8D60073287D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4706CCCD1E06F8D60073287D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4706CCCF1E06F8D60073287D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R7DWEPXN5Y;
+				INFOPLIST_FILE = SimpleCardViews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.harichandansingh.SimpleCardViews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4706CCD01E06F8D60073287D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R7DWEPXN5Y;
+				INFOPLIST_FILE = SimpleCardViews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.harichandansingh.SimpleCardViews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4706CCB71E06F8D60073287D /* Build configuration list for PBXProject "SimpleCardViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4706CCCC1E06F8D60073287D /* Debug */,
+				4706CCCD1E06F8D60073287D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4706CCCE1E06F8D60073287D /* Build configuration list for PBXNativeTarget "SimpleCardViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4706CCCF1E06F8D60073287D /* Debug */,
+				4706CCD01E06F8D60073287D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4706CCB41E06F8D60073287D /* Project object */;
+}
