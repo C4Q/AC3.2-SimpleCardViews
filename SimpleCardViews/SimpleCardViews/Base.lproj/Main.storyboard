@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SimpleCardViews" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7oL-nh-Yvh" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" priority="999" constant="200" id="9g8-i8-ewq"/>
+                                    <constraint firstAttribute="width" secondItem="7oL-nh-Yvh" secondAttribute="height" multiplier="25:35" id="zYD-VY-cAR"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ReD-gW-WcR" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cdb-er-tuV" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uh9-1W-yat" customClass="CardView" customModule="SimpleCardViews" customModuleProvider="target">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.39607843139999999" green="0.79215686269999996" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Uh9-1W-yat" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="10" id="Aqp-Il-4Jr"/>
+                            <constraint firstItem="ReD-gW-WcR" firstAttribute="width" secondItem="7oL-nh-Yvh" secondAttribute="width" id="B0w-ZW-so4"/>
+                            <constraint firstItem="Cdb-er-tuV" firstAttribute="height" secondItem="7oL-nh-Yvh" secondAttribute="height" id="Cuk-pn-6fW"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Uh9-1W-yat" secondAttribute="bottom" constant="8" id="G0Q-0J-k7z"/>
+                            <constraint firstItem="7oL-nh-Yvh" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="GJX-81-EMl"/>
+                            <constraint firstItem="ReD-gW-WcR" firstAttribute="leading" secondItem="Uh9-1W-yat" secondAttribute="leading" id="Ifg-HS-s0W"/>
+                            <constraint firstItem="Cdb-er-tuV" firstAttribute="trailing" secondItem="7oL-nh-Yvh" secondAttribute="trailing" id="KK3-Vo-uUA"/>
+                            <constraint firstItem="7oL-nh-Yvh" firstAttribute="top" relation="greaterThanOrEqual" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="OrY-p1-XRu"/>
+                            <constraint firstItem="Uh9-1W-yat" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="10" id="PKH-DT-ml3"/>
+                            <constraint firstItem="Cdb-er-tuV" firstAttribute="top" secondItem="Uh9-1W-yat" secondAttribute="top" id="X8U-09-LXn"/>
+                            <constraint firstItem="Cdb-er-tuV" firstAttribute="width" secondItem="7oL-nh-Yvh" secondAttribute="width" id="a4V-sD-yok"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="Uh9-1W-yat" secondAttribute="trailing" constant="8" id="aOZ-Hu-kjb"/>
+                            <constraint firstItem="Uh9-1W-yat" firstAttribute="height" secondItem="7oL-nh-Yvh" secondAttribute="height" id="bni-py-zlb"/>
+                            <constraint firstItem="ReD-gW-WcR" firstAttribute="bottom" secondItem="7oL-nh-Yvh" secondAttribute="bottom" id="gPh-vQ-ZEb"/>
+                            <constraint firstItem="7oL-nh-Yvh" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-10" id="gao-Ny-5wJ"/>
+                            <constraint firstItem="ReD-gW-WcR" firstAttribute="height" secondItem="7oL-nh-Yvh" secondAttribute="height" id="lfP-RY-zZ5"/>
+                            <constraint firstItem="Uh9-1W-yat" firstAttribute="width" secondItem="7oL-nh-Yvh" secondAttribute="width" id="tHa-sa-mnK"/>
+                            <constraint firstItem="7oL-nh-Yvh" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-10" id="tTT-f0-eSF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bottomLeftView" destination="Cdb-er-tuV" id="ugO-eM-7YM"/>
+                        <outlet property="bottomRightView" destination="Uh9-1W-yat" id="fEB-t9-jbb"/>
+                        <outlet property="topLeftView" destination="7oL-nh-Yvh" id="uwx-4o-vf6"/>
+                        <outlet property="topRightView" destination="ReD-gW-WcR" id="Yzv-bS-2fl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>
