@@ -26,4 +26,5 @@ class CardOneView: UIView {
             view.frame = self.bounds
         }
     }
+    
 }
