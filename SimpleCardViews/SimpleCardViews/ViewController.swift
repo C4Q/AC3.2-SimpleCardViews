@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.backgroundColor = .cyan
+        self.view.backgroundColor = UIColor(red: 1, green: 0.8667, blue: 0.9059, alpha: 1.0)
         drawCards()
         
     }
