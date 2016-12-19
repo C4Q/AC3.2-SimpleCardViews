@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cards" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W4g-1K-CFd" customClass="CardView" customModule="Cards" customModuleProvider="target">
+                                <rect key="frame" x="16" y="28" width="150" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="W4g-1K-CFd" secondAttribute="height" multiplier="1.5:2" id="bkf-hg-zGa"/>
+                                    <constraint firstAttribute="height" constant="200" id="hJv-3e-0sG"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="1" green="0.071597105699999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wBW-vS-bDH" customClass="CardView" customModule="Cards" customModuleProvider="target">
+                                <rect key="frame" x="209" y="28" width="150" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.15415268460000001" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nvo-fS-Tlv" customClass="CardView" customModule="Cards" customModuleProvider="target">
+                                <rect key="frame" x="16" y="249" width="150" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="nvo-fS-Tlv" secondAttribute="height" multiplier="1.5:2" id="JDv-Dg-2Sq"/>
+                                    <constraint firstAttribute="height" constant="200" id="Lvb-h8-ooJ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="1" green="0.039497547350000002" blue="0.29985111339999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Zb-aG-THa" customClass="CardView" customModule="Cards" customModuleProvider="target">
+                                <rect key="frame" x="209" y="249" width="150" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.62207506739999996" green="0.86368580569999998" blue="0.65738861609999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerradius">
+                                        <real key="value" value="3.3999999999999999"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="border__Width">
+                                        <real key="value" value="33.200000000000003"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZUJ-vT-xdv" customClass="CardView" customModule="Cards" customModuleProvider="target">
+                                <rect key="frame" x="16" y="467" width="343" height="148"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="1" green="0.039497547350000002" blue="0.29985111339999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="nvo-fS-Tlv" firstAttribute="leading" secondItem="W4g-1K-CFd" secondAttribute="leading" id="BrI-x0-LaN"/>
+                            <constraint firstItem="nvo-fS-Tlv" firstAttribute="width" secondItem="nvo-fS-Tlv" secondAttribute="height" multiplier="1.5:2" id="Cfa-pL-0bL"/>
+                            <constraint firstItem="wBW-vS-bDH" firstAttribute="height" secondItem="W4g-1K-CFd" secondAttribute="height" id="H2I-LA-ekI"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="W4g-1K-CFd" secondAttribute="leading" id="Nat-lS-YBQ"/>
+                            <constraint firstItem="ZUJ-vT-xdv" firstAttribute="top" secondItem="nvo-fS-Tlv" secondAttribute="bottom" constant="18" id="UPm-89-kyy"/>
+                            <constraint firstItem="nvo-fS-Tlv" firstAttribute="top" secondItem="wBW-vS-bDH" secondAttribute="bottom" constant="21" id="VfE-um-6eP"/>
+                            <constraint firstItem="wBW-vS-bDH" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="bnd-U0-VUZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZUJ-vT-xdv" secondAttribute="trailing" id="dCL-Qa-YxL"/>
+                            <constraint firstItem="wBW-vS-bDH" firstAttribute="width" secondItem="W4g-1K-CFd" secondAttribute="width" id="dNg-OU-L9H"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ZUJ-vT-xdv" secondAttribute="bottom" constant="52" id="eD0-Xm-Sdh"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="ZUJ-vT-xdv" secondAttribute="leading" id="ezy-65-vDN"/>
+                            <constraint firstItem="wBW-vS-bDH" firstAttribute="top" secondItem="W4g-1K-CFd" secondAttribute="top" id="pMx-VL-ZaD"/>
+                            <constraint firstItem="W4g-1K-CFd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="q1I-kV-SCQ"/>
+                            <constraint firstItem="wBW-vS-bDH" firstAttribute="bottom" secondItem="W4g-1K-CFd" secondAttribute="bottom" id="sxd-bg-sNM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bottomLeftCard" destination="nvo-fS-Tlv" id="2dq-Sg-U65"/>
+                        <outlet property="bottomRightCard" destination="3Zb-aG-THa" id="Odq-f9-6Rw"/>
+                        <outlet property="topLeftCard" destination="W4g-1K-CFd" id="zuV-xc-8e1"/>
+                        <outlet property="topRightCard" destination="wBW-vS-bDH" id="sTT-xm-gf0"/>
+                        <outlet property="wideCardView" destination="ZUJ-vT-xdv" id="CgL-7v-9Qh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+</document>
