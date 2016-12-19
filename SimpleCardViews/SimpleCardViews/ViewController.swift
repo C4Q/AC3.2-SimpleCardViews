@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var cardK: CardFace!
     
     @IBOutlet weak var cardHEART: CardFace!
-    @IBOutlet weak var cardSPADE: CardFace!
+    @IBOutlet weak var cardCLUB: CardFace!
     @IBOutlet weak var cardDIAMOND: CardFace!
     
     override func viewDidLoad() {
@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         
         CardFace.label(cards)
         CardFace.label(cardHEART, valueOfCard: 1, suitOfCard: .Heart)
-        CardFace.label(cardSPADE, valueOfCard: 1, suitOfCard: .Spade)
-        CardFace.label(cardDIAMOND, valueOfCard: 1, suitOfCard: .Club)
+        CardFace.label(cardCLUB, valueOfCard: 1, suitOfCard: .Club)
+        CardFace.label(cardDIAMOND, valueOfCard: 1, suitOfCard: .Diamond)
     }
 }

@@ -115,12 +115,12 @@
                         <outlet property="card7" destination="n6N-Tv-KXN" id="aRR-tY-6aN"/>
                         <outlet property="card8" destination="YgT-tU-CJz" id="axj-Av-G8C"/>
                         <outlet property="card9" destination="f8G-xi-HvK" id="ktC-1v-QV8"/>
+                        <outlet property="cardCLUB" destination="JtV-MK-7UW" id="wrl-b4-Rn6"/>
                         <outlet property="cardDIAMOND" destination="xYS-yN-uVx" id="AC4-VP-q7Z"/>
                         <outlet property="cardHEART" destination="Zt1-Hq-gUJ" id="AbM-zC-zxz"/>
                         <outlet property="cardJ" destination="gWu-Es-FiI" id="gyn-8k-hfZ"/>
                         <outlet property="cardK" destination="rIF-r1-Q2D" id="zDt-sX-EJr"/>
                         <outlet property="cardQ" destination="ctA-59-l16" id="u2b-p9-Qk4"/>
-                        <outlet property="cardSPADE" destination="JtV-MK-7UW" id="NUu-m0-nd3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
