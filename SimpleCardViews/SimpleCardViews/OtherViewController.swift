@@ -42,7 +42,7 @@ class OtherViewController: UIViewController {
         for index in 0..<cards.count {
             cards[index].heightAnchor.constraint(equalToConstant: 150).isActive = true
             cards[index].widthAnchor.constraint(equalTo: cards[index].heightAnchor, multiplier: 5/7).isActive = true
-            cards[index].leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+            cards[index].trailingAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
             cards[index].centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
             cards[index].translatesAutoresizingMaskIntoConstraints = false
             cards[index].layer.zPosition = CGFloat(index)
@@ -58,15 +58,17 @@ class OtherViewController: UIViewController {
     }
     
     func splayOut(_ cards: [CardFace]) {
-        // ... add as many as you want, then apply it to to the view
         for index in 0..<cards.count {
-            let angle = 0.10 * Double(index + 1)
-            var t = CGAffineTransform.identity
-            t = t.translatedBy(x: CGFloat(20 * index), y: CGFloat(0))
-            t = t.rotated(by: CGFloat(angle))
+            let angle = 0.60 * Double(index)
+            //var up = CGAffineTransform.identity
+            var down = CGAffineTransform.identity
+            //up = up.translatedBy(x: CGFloat(22 * index), y: CGFloat(5 * -index))
+            //up = up.rotated(by: CGFloat(angle))
+            down = down.rotated(by: CGFloat(angle))
+            down = down.translatedBy(x: CGFloat(22 * index), y: CGFloat(5 * -index))
             cards[index].leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 40)
-            cards[index].transform = t
-            }
+                cards[index].transform = down
+        }
     }
     
     @IBAction func alterArrangement(_ sender: UIButton) {
