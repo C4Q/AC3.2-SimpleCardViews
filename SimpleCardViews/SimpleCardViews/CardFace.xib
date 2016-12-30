@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="CardFace" customClass="CardFace" customModule="SimpleCardViews" customModuleProvider="target">
+            <connections>
+                <outlet property="numberLabel" destination="sFe-88-xWv" id="Kbp-GX-NVR"/>
+                <outlet property="numberLabelReversed" destination="dfu-0s-cqX" id="7hg-Jh-cvb"/>
+                <outlet property="pic" destination="4MY-Iv-aH4" id="fBb-NY-hMH"/>
+                <outlet property="suitLabel" destination="sPm-ym-Obx" id="VqH-0G-y0B"/>
+                <outlet property="suitLabelReversed" destination="gfQ-kJ-EYg" id="AIG-9g-b08"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleAspectFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="107" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4MY-Iv-aH4">
+                    <rect key="frame" x="23" y="18" width="62" height="115"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfQ-kJ-EYg">
+                    <rect key="frame" x="89" y="103" width="15" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="KsP-8W-ATm"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="A" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dfu-0s-cqX">
+                    <rect key="frame" x="81" y="125" width="23" height="25"/>
+                    <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFe-88-xWv">
+                    <rect key="frame" x="3" y="0.0" width="30" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sPm-ym-Obx">
+                    <rect key="frame" x="3" y="22" width="15" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="4MY-Iv-aH4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="23" id="AHJ-j5-Nqd"/>
+                <constraint firstItem="4MY-Iv-aH4" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="MBR-IN-WWt"/>
+                <constraint firstItem="gfQ-kJ-EYg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="103" id="Y6c-Pb-0Vr"/>
+                <constraint firstItem="4MY-Iv-aH4" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Yaj-qw-Z1y"/>
+                <constraint firstAttribute="bottom" secondItem="dfu-0s-cqX" secondAttribute="bottom" id="gPD-Rw-5ZA"/>
+                <constraint firstItem="4MY-Iv-aH4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="18" id="gn4-vM-LPS"/>
+                <constraint firstItem="dfu-0s-cqX" firstAttribute="trailing" secondItem="gfQ-kJ-EYg" secondAttribute="trailing" id="ku6-nq-rMU"/>
+                <constraint firstItem="gfQ-kJ-EYg" firstAttribute="leading" secondItem="4MY-Iv-aH4" secondAttribute="trailing" constant="4" id="mMK-Od-765"/>
+                <constraint firstAttribute="trailing" secondItem="gfQ-kJ-EYg" secondAttribute="trailing" constant="3" id="nqB-0o-7Y1"/>
+                <constraint firstItem="dfu-0s-cqX" firstAttribute="leading" secondItem="gfQ-kJ-EYg" secondAttribute="leading" id="o5U-XK-lyB"/>
+                <constraint firstItem="dfu-0s-cqX" firstAttribute="top" secondItem="gfQ-kJ-EYg" secondAttribute="bottom" constant="-3" id="tWV-WB-8q9"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-108.5" y="-206"/>
+        </view>
+    </objects>
+</document>
